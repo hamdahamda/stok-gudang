@@ -1,0 +1,2599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Data Keluar</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/sign-in/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form name="submit-to-google-sheet">
+        <img class="mb-4" src="logo1.svg" alt="" width="72" height="57" />
+        <h1 class="h3 mb-3 fw-normal mb-4">Silahkan Input Data Keluar</h1>
+
+        <div
+          class="alert alert-warning alert-dismissible fade show d-none my-alert"
+          role="alert"
+        >
+          <strong>Proses Berhasil!</strong> <br />Data sudah Diupdate
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input
+            class="form-control mb-3"
+            list="datalistOptions"
+            id="exampleDataList"
+            placeholder="Cari Item..."
+            name="nama"
+            autocomplete="off"
+            required
+          />
+            <datalist id="datalistOptions">
+            <option>BRATACO KAPSUL KOSONG 0 @ 1000 CAP</option>
+            <option>BRATACO KAPSUL KOSONG 1 @ 1000 CAP</option>
+            <option>BRATACO KAPSUL KOSONG 2 @ 1000 CAP</option>
+            <option>BRATACO KAPSUL KOSONG 3 @ 1000 CAP</option>
+            <option>BRATACO KAPSUL KOSONG 00 @ 1000 CAP</option>
+            <option>KERTAS PUYER</option>
+            <option>POT PLASTIK 5 CC</option>
+            <option>POT PLASTIK 10 CC</option>
+            <option>POT PLASTIK 12.5 CC</option>
+            <option>POT PLASTIK 20 CC</option>
+            <option>POT PLASTIK 30 CC</option>
+            <option>POT PLASTIK 50 CC</option>
+            <option>POT PLASTIK 65 CC</option>
+            <option>POT PLASTIK 75 CC</option>
+            <option>POT PLASTIK 100 CC</option>
+            <option>BOTOL KOSONG PLASTIK 30 ML</option>
+            <option>BOTOL KOSONG PLASTIK 60 ML</option>
+            <option>BOTOL KOSONG PLASTIK 100 ML</option>
+            <option>BOTOL KOSONG PLASTIK 200 ML</option>
+            <option>BOTOL KOSONG BELING 30 ML</option>
+            <option>BOTOL KOSONG BELING 60 ML</option>
+            <option>BOTOL KOSONG BELING 100 ML</option>
+            <option>BOTOL KOSONG BELING 200 ML</option>
+            <option>PLASTIK ETIKET KECIL</option>
+            <option>PLASTIK ETIKET SEDANG</option>
+            <option>PLASTIK ETIKET BESAR</option>
+            <option>ACIFAR 400 MG BOX 3 STR @ 10 KAPL</option>
+            <option>SAMCORBEX DRAGEE BOX 10 STR @ 10 TAB</option>
+            <option>ALODAN 300 MG BOX 10 STR @ 10 TAB</option>
+            <option>ALODAN 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>BENOSTAN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DEXYCOL 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>LACTO-B SERBUK BOX 40 SCHT @ 1 GR</option>
+            <option>PARATUSIN BOX 20 STR @ 10 TAB</option>
+            <option>MERSIBION 5000 INJEKSI BOX 10 AMP @ 3 ML</option>
+            <option>GRAFACHLOR 0.5 MG/ 2 MG BOX 10 STR @ 10 KAPL</option>
+            <option>
+              SPIRONOLACTONE DEXA MEDICA 25 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>MEZAC 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>ZOLINE 50 MG BOX 10 STR @ 10 CAP</option>
+            <option>PONDEX FORTE 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>VITAQUIN CREAM 15 GR TUB</option>
+            <option>SELVIM 20 MG BOX 5 STR @ 10 KAPL</option>
+            <option>INERSON 0.25 % SALEP 15 GR TUB</option>
+            <option>GLUDEPATIC 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>KALCINOL-N CREAM 5 GR TUB</option>
+            <option>BEROTEC SPRAY 100 MCG 10ML MDI</option>
+            <option>HUFANOXIL 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>HUFANOXIL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>TOPCILLIN 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>RIFAMPICIN KIMIA FARMA 450 MG BOX 10 STR @ 10 CAP</option>
+            <option>SCOPMA PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>SCOPMA 10 MG BOX 10 STR @ 10 KAPL</option>
+            <option>CITICOLINE MPL BOX 3 STR @ 10 KAPL</option>
+            <option>SUPERHOID BENZOKAIN 1.0 % BOX 1 STR @ 6 SUPP</option>
+            <option>STANZA 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>VESPERUM 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>VESPERUM 5 MG/ML DROP 15 ML</option>
+            <option>LOKEV 20 MG BOX 5 STR @ 10 CAP</option>
+            <option>POLYSILANE JUNIOR 1 BTL @ 60 CAP</option>
+            <option>DAPYRIN SYR 60 ML</option>
+            <option>DAPYRIN 500 MG BOX 20 STR @ 10 TAB</option>
+            <option>KALK NELLCO TAB 1 BTL @ 100 TAB</option>
+            <option>BROCON BOX 10 STR @ 10 CAP</option>
+            <option>KANDISTATIN 100K IU/ML SUSP 12 ML</option>
+            <option>CANDISTIN DROP RASA STRAWBERRY 12 ML</option>
+            <option>PRONICY 4 MG BOX 10 STR @ 10 KAPL</option>
+            <option>SIMVASTATIN KIMIA FARMA 20 MG BOX 5 STR @ 10 TAB</option>
+            <option>AMLODIPINE BERNO 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>IREMAX BOX 10 STR @ 10 TAB</option>
+            <option>TRIANTA BOX 10 STR @ 10 TAB</option>
+            <option>ENERVON-C BOX 25 STR @ 4 TAB</option>
+            <option>BRONSOLVAN 150 MG BOX 10 STR @ 10 TAB</option>
+            <option>MIRASIC FORTE 650 MG BOX 10 STR @ 10 KAPL</option>
+            <option>MIRASIC PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>ZANIC 20 MG/ 5 ML SYR 100 ML</option>
+            <option>PIMACOLIN PLUS APPLE 60ML</option>
+            <option>PIMACOLIN PLUS APPLE 60ML</option>
+            <option>PIMACOLIN RASA MILK 60 ML</option>
+            <option>BRONCHITIN EXPECTORANT SYR 60 ML</option>
+            <option>VIBRAMOX 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>KALPEPSA 500 MG / 5ML SUSP 100 ML</option>
+            <option>NUCRAL 500 MG/ 5 ML SUSP 100 ML</option>
+            <option>RYVEL 10 MG/ML DROP 10 ML</option>
+            <option>FARSIFEN FORTE SUSP 60 ML</option>
+            <option>FARSIFEN 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>MULSANOL GOLD EMULSI 60 ML</option>
+            <option>PARAMOL 120 MG/ 5 ML SYR 60 ML</option>
+            <option>UNIVIT SYR 60 ML</option>
+            <option>COPARCETIN KID COUGH SYR 60 ML</option>
+            <option>COPARCETIN BOX 10 STR @ 10 KAPL</option>
+            <option>
+              BETAMETHASON KIMIA FARMA 0.1% CREAM BOX 25 TUB @ 5 GR
+            </option>
+            <option>FAXIDEN GEL 10 GR TUB</option>
+            <option>SYNARCUS 0.025% CREAM 5 GR TUB</option>
+            <option>RECO EYE DRP 0.5% 1 BTL 10 ML</option>
+            <option>RECO 1% EAR DRP @ 10 ML</option>
+            <option>TAXIME DRY SYR 30 ML</option>
+            <option>TAXIME 200 MG BOX 3 STR @ 10 KAPL</option>
+            <option>TAXIME 100 MG BOX 3 STR @ 10 CAP</option>
+            <option>TERA F BOX 10 STR @ 10 TAB</option>
+            <option>VOSTRIN 300 MG BOX 2 STR @ 10 CAP</option>
+            <option>VOSTRIN SYR 60 ML</option>
+            <option>
+              CANDESARTAN CILEXETIL DEXA MEDICA 16 MG BOX 3 STR @ 10 TAB
+            </option>
+            <option>PRONAM 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>ASPILETS 80 MG BOX 10 STR @ 10 TAB</option>
+            <option>THIAMYCIN 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>FENAREN 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>LISINOPRIL NOVELL 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>ANATON BOX 10 STR @ 10 TAB</option>
+            <option>ITRAMOL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>APTOR 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>RIFABIOTIC 450 MG BOX 10 STR @ 10 TAB</option>
+            <option>GARABIOTIC 0.1% CREAM 5GR TUB</option>
+            <option>NOVAMAG BOX 10 STR @ 10 TAB</option>
+            <option>RIFAMPICIN KIMIA FARMA 600 MG BOX 10 STR @ 10 TAB</option>
+            <option>ALMACON BOX 10 STR @ 10 TAB</option>
+            <option>DEXAMETHASONE PROMED 0.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>SANGOVITIN BOX 10 STR @ 10 TAB</option>
+            <option>HUFANEURON BOX 10 STR @ 10 KAPL</option>
+            <option>DIOVAN 160 MG BOX 3 STR @ 10 TAB</option>
+            <option>FASIDOL PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>FASIDOL FORTE 650 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NUTRALIX 5000 BOX 5 STR @ 10 KAPL</option>
+            <option>NUTRALIX BOX 10 STR @ 10 KAPL</option>
+            <option>TIBIGON 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>LINCOMYCIN PHAPROS 500 MG BOX 5 STR @ 10 CAP</option>
+            <option>OMBERZOL BERNOFARM 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>BROMIFAR 8 MG BOX 10 STR @ 10 CAP</option>
+            <option>REPASS 400 MG BOX 10 STR @ 10 KAPL</option>
+            <option>BINTAMOX 500 MG 10 STR @ 10 KAPL</option>
+            <option>NOVADEX 0.75 MG BOX 20 STR @ 10 TAB</option>
+            <option>ESTALEX 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>NOVABIOTIC 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>MIDIX 2 MG BOX 10 STR @ 10 CAP</option>
+            <option>AMOSTERA 500 MG BOX 10 STR @ 10 KAP</option>
+            <option>PEDAB 80 MG BOX 10 STR @ 10 TAB</option>
+            <option>POVIRAL 400 MG BOX 3 STR @ 10 TAB</option>
+            <option>CARDIO ASPIRIN 100 MG BOX 3 STR @ 10 TAB</option>
+            <option>ZORALIN 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>ZORALIN CREAM 10 GR TUB</option>
+            <option>OMEROXOL 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>SPASMINAL BOX 10 STR @ 10 TAB</option>
+            <option>EDOTIN 300 MG BOX 2 STR @ 10 CAP</option>
+            <option>EDOTIN 175 MG/ 5 ML SYR 60 ML</option>
+            <option>VECTRINE 300 MG BOX 2 STR @ 10 CAP</option>
+            <option>RELAXON EPERISONE 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>KOLICGON BOX 10 STR @ 10 TAB</option>
+            <option>VIRPES 400 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRAFAZOL 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>NICHOMYCIN 500 MG BOX 5 STR @ 10 CAP</option>
+            <option>ZIDALEV 500 MG BOX 5 STR @ 10 KAPL</option>
+            <option>ACIFAR 200 MG BOX 10 STR @ 10 KAPL</option>
+            <option>GINIFAR 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ELTAZON 5 MG BOX 10 STR @ 10 KAPL</option>
+            <option>GABITEN 50 MG BOX 10 STR @ 10 KAPL</option>
+            <option>JUSTIN 20 MG BOX 5 STR @ 10 TAB</option>
+            <option>NUFADEX M 0.5 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FARIDEXON 0.5 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ROVERTON 30 MG BOX 10 STR @ 10 CAP</option>
+            <option>WINATIN BOX 10 STR @ 10 KAPL</option>
+            <option>INAMID 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRADILEX 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>MOLAPECT 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>FARMOTEN 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>FARGOXIN 0.25 MG BOX 10 STR @ 10 TAB</option>
+            <option>FARSORBID 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>PIROXICAM TRIFA 10MG BOX 10STR @10 TAB</option>
+            <option>INXILON 4 MG BOX 5 STR @ 10 TAB</option>
+            <option>RHINOS NEO DROP 10 ML</option>
+            <option>PRIMPERAN DROP PAED BOX 1 BTL @ 10 ML</option>
+            <option>ROVERTON DROP 15 ML</option>
+            <option>HISTRINE 5 MG/ 5 ML SYR 60 ML</option>
+            <option>CEFSPAN 100 MG DRY SYR 30 ML</option>
+            <option>VOMINA 5 MG / 5 ML SYR 60 ML</option>
+            <option>FLADEX FORTE 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>HUFAXOL 15 MG/ 5 ML SYR 60 ML</option>
+            <option>HUFADON 5 MG/ 5 ML SUSP 60 ML</option>
+            <option>RANICHO 75 MG/ 5 ML SYR RASA STRAWBERRY 100 ML</option>
+            <option>ALPHAMOL 500 MG BOX 15 STR @ 10 KAPL</option>
+            <option>GRALIXA 40 MG BOX 10 STR @ 10 TAB</option>
+            <option>TANTUM LOZ BOX 2 STR @ 6 TAB</option>
+            <option>PARACETAMOL PROMED 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>NIFEDIPINE DEXA MEDICA 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>PLANOTAB BOX 20 BLIS @ 28 TAB</option>
+            <option>FARIDEXON 0.75 MG BOX 10 STR @ 10 KAPL</option>
+            <option>AMOXICILLIN MERSI 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>STARQUIN 500MG BOX 10 STR @ 10 TAB</option>
+            <option>METHYLPREDNISOLONE QUANTUM 4MG BOX 10 STR @ 10 TAB</option>
+            <option>HUFAXOL 30 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ANTASIDA DOEN MERSIFARMA 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>ANFLAT BOX 10 STR @ 10 TAB</option>
+            <option>ACARBOSE DEXA MEDICA 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>ACARBOSE DEXA MEDICA 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>AMLODIPINE BERNO 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>AMLODIPINE HEXPHARM 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>BISOPROLOL DEXA MEDICA 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>BISOPROLOL NOVELL 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>CANDESARTAN DEXA MEDICA 8MG BOX 3 STR @ 10 TAB</option>
+            <option>CLOPIDOGREL DEXA MEDICA 75 MG BOX 5 STR @ 6 TAB</option>
+            <option>CEFIXIME DEXA MEDICA 100 MG BOX 10 STR @ 10 CAP</option>
+            <option>CEFIXIME DEXA MEDICA 200 MG BOX 10 STR @ 10 CAP</option>
+            <option>GLIMEPIRIDE DEXA MEDICA 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLIMEPIRIDE DEXA MEDICA 1 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLIMEPIRIDE DEXA MEDICA 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>RAMIPRIL NOVELL 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>LISINOPRIL NOVELL 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>
+              ATORVASTATIN CALCIUM NOVELL 40 MG BOX 3 STR @ 10 TAB
+            </option>
+            <option>ATORVASTATIN DEXA MEDICA 10 MG BOX 5 STR @ 6 TAB</option>
+            <option>ALBOTHYL 36% SOL 10 ML</option>
+            <option>ALBOTHYL 36% SOL 5 ML</option>
+            <option>CATAFLAM 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>ALPENTIN 100 MG BOX 5 STR @ 10 CAP</option>
+            <option>ALPENTIN 300 MG BOX 5 STR @ 10 CAP</option>
+            <option>RENADINAC 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>MYCORAL 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>FLAGYSTATIN BOX 2 STR @ 5 SUPP</option>
+            <option>ISOPRINOSINE 500 MG BOX 1 STR @ 8 TAB</option>
+            <option>GIRABLOC 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>ERLAMOL 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>MEGATIC 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>POSTINOR-2 0.75 MG BOX 1 STR @ 2 TAB</option>
+            <option>GASTRUCID BOX 10 STR @ 10 TAB</option>
+            <option>ACTIFED PLUS EXPECTORANT HIJAU SYR 60 ML</option>
+            <option>ACTIFED SYR 60 ML</option>
+            <option>COLFIN SYR 60 ML</option>
+            <option>NOVADIAR SUSP 60 ML</option>
+            <option>FARSIFEN 400 MG BOX 10 STR @ 10 KAPL</option>
+            <option>MILORIN 300 MG BOX 5 STR @ 10 CAP</option>
+            <option>FUSYCOM 2 % CREAM 5 GR TUB</option>
+            <option>ERLADERM N CREAM TUB 5 GR</option>
+            <option>PAMOL 125 MG BOX 2 STR @ 6 SUPP</option>
+            <option>MERCOTIN 10 MG/ML DROP 20 ML</option>
+            <option>BENOSON G CREAM 10 GR TUB</option>
+            <option>KETOCONAZOLE KIMIA FARMA 2% CREAM 10 GR TUB</option>
+            <option>ALLETROL EYE DRP @ 5 ML</option>
+            <option>ALLETROL COMPOSITUM SALEP 3.5 GR TUB</option>
+            <option>OVISKIN N CREAM 5 GR TUB</option>
+            <option>OVISKIN CREAM 10 GR TUB</option>
+            <option>DERMIFAR CREAM 5 GR TUB</option>
+            <option>TRANSPULMIN KIDS 10 GR</option>
+            <option>ARMACORT CREAM 5 GR TUB</option>
+            <option>PARASOL SPF 33 CREAM 20 GR</option>
+            <option>VENTOLIN NEBULES 2.5 MG BOX 4 STR @ 5 BTL</option>
+            <option>STIMUNO FORTE BOX 1 STR @ 10 CAP</option>
+            <option>THERAGRAN M BOX 25 STR @ 4 TAB</option>
+            <option>DIABIT 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>AMPICILLIN PHARMA 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>LEVOFLOXACIN BERNO 500MG 10 STR @ 10 TAB</option>
+            <option>HEPTASAN 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>RAMOLIT RASA JERUK BOX 25 SCHT @ 4.26 GR</option>
+            <option>ATRANAC 50MG BOX 5 STR @ 10 TAB</option>
+            <option>NOVACHLOR 250 MG BOX 10 STR @ 10 CAP</option>
+            <option>CALORTUSIN BOX 10 STR @ 10 KAPL</option>
+            <option>LANADEXON 0.5 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NOPERTEN 10 MG BOX 5 STR @ 6 TAB</option>
+            <option>NOPERTEN 5MG BOX 5 STR @ 6 TAB</option>
+            <option>OPISTAN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>TANTUM VERDE ORAL RINSE 120 ML</option>
+            <option>TANTUM VERDE ORAL RINSE 60 ML</option>
+            <option>DISFLATYL BOX 10 STR @ 10 TAB</option>
+            <option>PRATIFAR 40 MG BOX 5 STR @ 10 KAPL</option>
+            <option>GRAXINE BOX 10 STR @ 10 TAB</option>
+            <option>IRBESARTAN INDOFARMA 150 MG BOX 5 STR @ 10 KAPL</option>
+            <option>IRBESARTAN INDOFARMA 300 MG BOX 5 STR @ 10 TAB</option>
+            <option>VASTIGO 6 MG BOX 10 STR @ 10 TAB</option>
+            <option>TEOSAL BOX 10 STR @ 10 TAB</option>
+            <option>
+              ISOSORBIDE DINITRATE YARINDO 5 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>DAMABEN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>KALMETHASONE 0.5 MG BOX 20 STR @ 10 TAB</option>
+            <option>SONAMIN BOX 10 STR @ 10 CAP</option>
+            <option>BIOLYSIN BOX 10 STR @ 10 TAB</option>
+            <option>DEXANTA BOX 10 STR @ 10 TAB</option>
+            <option>EMTURNAS 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>EMTURNAS FORTE 650 MG BOX 10 STR @ 10 KAPL</option>
+            <option>GLUCODEX 80 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLUCOSAMINE MPL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FARMACROL FORTE BOX 10 STR @ 10 TAB</option>
+            <option>DEXA-M 0.75MG BOX 50 STR @ 10 TAB</option>
+            <option>PHARMAXIL 125 MG/ 5 ML DROP RASA JERUK 60 ML</option>
+            <option>PHARMAMOX 500 BOX 10 STR @ 10 KAPL</option>
+            <option>PIRACETAM BERNO 1200 MG BOX 10 STR @ 10 KAPLET</option>
+            <option>METFORMIN BERNOFARM 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>METFORMIN BERNOFARM 850 MG BOX 10 STR @ 10 TAB</option>
+            <option>NOVASTAN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ITRACONAZOLE BERNOFARM 100 MG BOX 3 STR @ 10 CAP</option>
+            <option>FENOFIBRATE HEXPHARM 100 MG BOX 3 STR @ 10 CAP</option>
+            <option>OMESTAN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>OMESTAN SYR 60 ML</option>
+            <option>ENBATIC SERBUK BOX 36 SCHT @ 3 GR</option>
+            <option>MEGASONUM 0.5 MG BOX 20 STR @ 10 KAPL</option>
+            <option>MEGASONUM 0.75 MG BOX 20 STR @ 10 KAPL</option>
+            <option>TIDIFAR 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>DEXTACO BOX 10 STR @ 10 KAPL</option>
+            <option>TRIFED BOX 5 STR @ 10 TAB</option>
+            <option>PROMEDEX BOX 10 STR @ 10 TAB</option>
+            <option>TRISELA 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>OMEDOM 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>ALBIOTIN 300 MG BOX 3 STR @ 10 CAP</option>
+            <option>THIANICOL 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>PHENYTOIN IKAPHARMINDO 100 MG 1 BTL @ 100 CAP</option>
+            <option>HUFADON 10 MG BOX 10 STR @ 10 KAPL</option>
+            <option>RANIVEL 75 MG/ 5 ML SYR 60 ML</option>
+            <option>HUFAFURAL 250 MG/ 5 ML SUSP 60 ML</option>
+            <option>MINIASPI 80 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLUMIN XR 500 MG BOX 3 STR @ 10 KAPL</option>
+            <option>MEDIXON 16 MG BOX 5 STR @ 6 TAB</option>
+            <option>MEDIXON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>MEDIXON 8 MG BOX 10 STR @ 10 TAB</option>
+            <option>CARGESIK 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>OMEGESIC 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>OMENACORT 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>VOMETA FLASH 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>LIBROCEF 500 MG BOX 3 STR @ 10 CAP</option>
+            <option>URESIX 40 MG BOX 10 STR @ 10 TAB</option>
+            <option>MYORI 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>BROXAL 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>RETROFEN 100 MG BOX 5 STR @ 10 CAP</option>
+            <option>VITAL EAR DRP @ 10 ML</option>
+            <option>MYCORINE POWDER 25 GR</option>
+            <option>BENOSON 0.1 % CREAM 15 GR TUB</option>
+            <option>BRAVODERM N CREAM BOX 24 TUB @ 5 GR</option>
+            <option>ICHTIYOL-ZALF NUFARINDO 15 GR</option>
+            <option>CITO GENTIAN VIOLET 1% SOL 10 ML</option>
+            <option>TRANSPULMIN KIDS 20 GR</option>
+            <option>GENTAMICIN SULFATE MOLEX 0.1% CREAM KULIT 5GR TUB</option>
+            <option>OXYTETRACYCLINE KIMIA FARMA CREAM 3% TUB @ 5 GR</option>
+            <option>MELANOX FORTE 4 % CREAM 15 GR TUB</option>
+            <option>LESPAIN CREAM 20 GR</option>
+            <option>ERLAMYCETIN 1 % EYE DRP @ 10 ML</option>
+            <option>ERLAMYCETIN PLUS 0.5 % EYE DRP @ 5 ML</option>
+            <option>NOVALGIN 250 MG/ 5 ML SYR 60 ML</option>
+            <option>BIO ATP BOX 10 STR @ 10 TAB</option>
+            <option>TRANSMUCO 15 MG/ 5 ML SYR 60 ML</option>
+            <option>MOLAPECT 15 MG/5 ML SYR 60 ML</option>
+            <option>ERYRA 200 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>THIAMFILEX 125MG/5ML DRY SYR 60 ML</option>
+            <option>LEVOPRONT 30 MG SYR 120 ML</option>
+            <option>RECOLFAR 0.5 MG BOX 3 STR @ 10 TAB</option>
+            <option>HUFADEXTAMIN BOX 10 STR @ 10 KAPL</option>
+            <option>NOVAXIFEN 400 MG BOX 10 STR @ 10 TAB</option>
+            <option>ETAFEN 400 MG BOX 10 STR @ 10 TAB</option>
+            <option>IFEN 400 MG BOX 10 STR @ 10 TAB</option>
+            <option>INADOXIN FORTE BOX 10 STR @ 10 KAPL</option>
+            <option>TRIFASTAN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>PRIMADEX BOX 10 STR @ 10 TAB</option>
+            <option>SULTRIMMIX DS 960 MG BOX 10 STR @10 TAB</option>
+            <option>PIRACETAM BERNO 400 MG BOX 10 STR @ 10 CAP</option>
+            <option>
+              METHYLPREDNISOLONE DEXA MEDICA 4 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>OFLOXACIN INDOFARMA 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>OFLOXACIN NOVELL 200 MG 5 STR @ 10 TAB</option>
+            <option>
+              ATORVASTATIN CALCIUM NOVELL 20 MG BOX 3 STR @ 10 TAB
+            </option>
+            <option>LOPERAMIDE FIRST MEDIPHARMA 2MG BOX 10 STR @ 10 TAB</option>
+            <option>CEDOCARD 10 MG BOX 6 STR @ 10 TAB</option>
+            <option>AZITHROMYCIN KIMIA FARMA 500 MG 2 STR @ 10 KAPL</option>
+            <option>PRORIS 125 MG BOX 2 STR @ 5 SUPP</option>
+            <option>ALLOHEX 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>VOMINA 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>CENTABIO GEL 20 GR TUB</option>
+            <option>SALGEN 0.1 % CREAM 15 GR TUB</option>
+            <option>SCANDERMA 0.5 % CREAM 10 GR TUB</option>
+            <option>HALMEZIN SYR 100 ML</option>
+            <option>HAEMOCAIN SALEP 15 GR TUB</option>
+            <option>VITACID 0.1% CREAM 20 GR TUB</option>
+            <option>BAYCUTEN N CREAM 5 GR TUB</option>
+            <option>CIPROFLOXACIN BERNOFARM 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>KETOPROFEN BERNOFARM 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>NIFEDIPINE KIMIA FARMA 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>PAPAVERINE NOVAPHARIN 40 MG BOX 1 STR @ 10 TAB</option>
+            <option>COTRIMOXAZOLE PROMED 480 MG BOX 10 STR @ 10 TAB</option>
+            <option>ETHAMBUTOL BERNOFARM 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>REBAMIPIDE ETERCON 100MG BOX 10 STR @10 TAB</option>
+            <option>GLIMETIC 2MG BOX 5 STR @ 10 TAB</option>
+            <option>CITOVIPLEX BOX 10 STR @ 10 CAP</option>
+            <option>METHISOPRINOL NULAB 500 MG BOX 5 STR @ 10 TAB</option>
+            <option>FASOLON CREAM 5 GR TUB</option>
+            <option>DEXTRAL SYR 100 ML</option>
+            <option>ITRABAT SYR 100 ML</option>
+            <option>ANACETINE PLUS SYR 60 ML</option>
+            <option>PROMEDEX SYR 60 ML</option>
+            <option>PASABA EXPECTORAN SYR 60 ML</option>
+            <option>STIMUNO ORIGINAL SYR 60 ML</option>
+            <option>STIMUNO GRAPE SYR 60 ML</option>
+            <option>CDR EFFERVESCENT RASA JERUK TUB EFF @ 10 TAB</option>
+            <option>REDOXON TRIPLE ACTION RASA JERUK TUB @ 10 TAB EFF</option>
+            <option>STIMUNO SYR JERUKBERI FLAVOR 60 ML</option>
+            <option>CURCUMA BOX 10 STR @ 12 TAB</option>
+            <option>POLYSILANE BOX 5 STR @ 8 TAB</option>
+            <option>ENERVON C 1 BTL @ 30 TAB</option>
+            <option>ENERVON C 1 BTL @ 30 TAB</option>
+            <option>CAVIPLEX BOX 10 STR @ 10 KAPL</option>
+            <option>CITICOLINE BERNO 500 MG BOX 3 STR @ 10 TAB</option>
+            <option>PLANTACID SUSP FORT 100 ML</option>
+            <option>PLANTACID SYR 100 ML</option>
+            <option>PLANTACID FORTE CHEW BOX 10 STR @10 TAB</option>
+            <option>FENAMIN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ZELONA 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>ANDALAN PIL KB BOX 2 STR @ 28 TAB</option>
+            <option>RIFAMPICIN BERNOFARM 450 MG BOX 10 STR @ 10 TAB</option>
+            <option>RIFAMPICIN BERNOFARM 600 MG BOX 10 STR @ 10 KAPL</option>
+            <option>OMEGTAMINE BOX 30 STR @ 10 TAB</option>
+            <option>DEXTRAL BOX 15 STR @ 10 CAP</option>
+            <option>DEXTRAL SYR 60 ML</option>
+            <option>SALBRON 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>SALBRON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>TRANSMUCO 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>TRANSMUCO 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>ANFLAT SYR 100 ML</option>
+            <option>HEXAVASK 5 MG BOX 5 STR @ 10TAB</option>
+            <option>HEXAVASK 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>ANFUHEX 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>HEXALGIN BOX 10 STR @ 10 KAPL</option>
+            <option>KITAVIT SYR RASA ORANGE 100 ML</option>
+            <option>FASGO SYR 160MG/5ML 60ML BTL</option>
+            <option>FASGO 250 MG/ 5 ML SYR 60 ML</option>
+            <option>FLUTAMOL BOX 10 STR @ 10 KAPL</option>
+            <option>FLUTAMOL SYR 60 ML</option>
+            <option>FLUTAMOL-P BOX 10 STR @ 10 TAB</option>
+            <option>VIBRAMOX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ASTHERIN 2.5 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DURAMYCIN 500MG BOX 10 STR @ 10 KAPL</option>
+            <option>PROSTANAC 50MG BOX 5 STR @ 10 KAPL</option>
+            <option>ALLOPURINOL BERNO 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>ALLOPURINOL BERNO 300 MG BOX 10 STR @ 10 TAB</option>
+            <option>MYCORAL 2% CREAM 5 GR TUB</option>
+            <option>DIANE 35 MG BOX 1 STR @ 21 TAB</option>
+            <option>ACNE FELDIN LOTION 110 ML</option>
+            <option>ALCO PLUS SYR 100ML</option>
+            <option>ALLERON 4 MG 1 BTL @ 100 KAPL</option>
+            <option>ALLERZIN 10 BOX 10 STR @10 TAB</option>
+            <option>AMBROXOL PROMED 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>ANTASIDA DOEN UNIVERSAL PHARM 1 BTL @ 100 TAB</option>
+            <option>BEPANTHEN SALEP BAYI 20 GR TUB</option>
+            <option>BETADINE ANTISEPTIC SOL 30 ML</option>
+            <option>BRONCHOSAL 4 MG BOX 10 STR @ 10 KAPL</option>
+            <option>BRONKRIS 8 MG BOX 10 STR @ 10 TAB</option>
+            <option>BUFACOMB CREAM 5 GR TUB</option>
+            <option>CALDANA FLEX BOX 5 STR @ 6 KAPL</option>
+            <option>CALLUSOL SOL 10 ML</option>
+            <option>CARSIDA BOX 10 STR @ 10 TAB</option>
+            <option>CAVIPLEX SYR 60 ML</option>
+            <option>CEFADROXIL PHARMA 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>
+              CEFTRIAXONE HEXPHARM JAYA 1 GR SERBUK INJEKSI BOX 2 VIAL
+            </option>
+            <option>CENDO FENICOL 0.5% EYE DRP @ 5 ML</option>
+            <option>CENDO FENICOL 0.25% EYE DRP @ 5 ML</option>
+            <option>CENDO FLOXA EYE DRP @ 5 ML</option>
+            <option>CENDO XITROL EYE SALEP 3.5 GR TUB</option>
+            <option>CENDO XITROL EYE DRP @ 5 ML</option>
+            <option>CLINDAMYCIN NOVELL 150 MG BOX 5 STR @ 10 CAP</option>
+            <option>CLINDAMYCIN NOVELL 300 MG BOX 5 STR @ 10 CAP</option>
+            <option>CLOBETASOL ETERCON 0.05% SALEP 10 GR TUB</option>
+            <option>COPARCETIN SYR 60 ML</option>
+            <option>DECADRYL EXPECTORANT SYR 60 ML</option>
+            <option>DEGIROL LEMON BOX 5 STR @ 4 TAB</option>
+            <option>DEXAHARSEN 0.75 MG BOX 20 STR @ 10 KAPL</option>
+            <option>DEXAHARSEN 0.5 MG BOX 20 STR @ 10 KAPL</option>
+            <option>DEXANEL 0.5 MG 1 BTL @ 100 TAB</option>
+            <option>DEXTEEM PLUS BOX 10 STR @ 10 TAB</option>
+            <option>DILTIAZEM KIMIA FARMA 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>DIVOLTAR 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>DOBRIZOL BOX 5 STR @ 10 CAP</option>
+            <option>DOLO SCANNEURON BOX 10 STR @ 10 KAPL</option>
+            <option>EFISOL-C BOX 2 STR @ 10 TAB</option>
+            <option>ENATIN 1 BTL @ 50 CAP</option>
+            <option>ERLA NEO HYDROCORT CREAM 5 GR TUB</option>
+            <option>ERLAMYCETIN 1 % EYE SALEP 3.5 GR TUB</option>
+            <option>ERPHAFLAM 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>ERPHAMAZOL CREAM 5 GR TUB</option>
+            <option>ERYRA FORTE BOX 10 STR @ 10 TAB</option>
+            <option>ETORICOXIB NOVELL 60 MG BOX 3 STR @ 10 TAB</option>
+            <option>ETORICOXIB NOVELL 90 MG BOX 3 STR @ 10 TAB</option>
+            <option>ETORICOXIB NOVELL 120 MG BOX 3 STR @ 10 TAB</option>
+            <option>FARSIX 40 MG BOX 10 STR @ 10 TAB</option>
+            <option>FLUMIN PLUS SYR 60 ML</option>
+            <option>FLUNARIZINE BERNOFARM 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>FUNDAMIN-E BOX 25 STR @ 4 TAB</option>
+            <option>
+              GENTAMYCIN SULFATE INDOFARMA 40 MG/ML INJEKSI BOX 5 AMP @ 2 ML
+            </option>
+            <option>GLIMEPIRIDE DEXA MEDICA 3 MG BOX 10 STR @ 10 TAB</option>
+            <option>VITACID 0.025% CREAM 15 GR TUB</option>
+            <option>VITACID 0.05% CREAM 20 GR TUB</option>
+            <option>PONSTAN FCT 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>LANSOPRAZOLE BERNOFARM 30 MG BOX 10 STR @ 10 CAP</option>
+            <option>LANSOPRAZOLE NULAB 30 MG BOX 2 STR @ 10 CAP</option>
+            <option>LANSOPRAZOLE NOVELL 30 MG BOX 2 STR @ 10 CAP</option>
+            <option>LANSOPRAZOLE INDOFARMA 30 MG BOX 2 STR @ 10 CAP</option>
+            <option>REFAQUIN CREAM 10GR</option>
+            <option>BENZOLAC 5% GEL 5 GR TUB</option>
+            <option>BENZOLAC 5% GEL 5 GR TUB</option>
+            <option>BENZOLAC 2.5% GEL 5 GR TUB</option>
+            <option>BENZOLAC - CL ACNE GEL 10 GR TUB</option>
+            <option>DESOLEX 0.05% CREAM 10 GR TUB</option>
+            <option>KETOMED SCALP SOL 60 ML</option>
+            <option>KLODERMA 0.05 % SALEP 5 GR TUB</option>
+            <option>KLODERMA 0.05 % SALEP 10 GR TUB</option>
+            <option>KLODERMA 0.05 % CREAM 5 GR TUB</option>
+            <option>KLODERMA 0.05 % CREAM 10 GR TUB</option>
+            <option>MEDIKLIN TR GEL 15 GR TUB</option>
+            <option>MELANOX 2 % CREAM 15 GR TUB</option>
+            <option>MELANOX ES CREAM 15 GR TUB</option>
+            <option>PRIMOLUT-N 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>KENALOG ORABASE 0.1% SALEP 5 GR TUB</option>
+            <option>MINYAK KUTUS KUTUS TANAMU TANAMI 100 ML</option>
+            <option>BETADINE VAGINAL DOUCHE 100 ML BTL + APLIKATOR</option>
+            <option>FOLAMIL GENIO 1 BTL @ 30 CAP</option>
+            <option>FOLAMIL GOLD 1 BTL @ 30 CAP</option>
+            <option>OMEPROS 1 BTL @ 30 CAP</option>
+            <option>OMEPROS 1 BTL @ 60 CAP</option>
+            <option>CEFADROXIL DEXA MEDICA 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>BIOPLACENTON GEL 15 GR TUB</option>
+            <option>YASMIN BOX 1 STR @ 21 TAB</option>
+            <option>ELOCON 0.1 % CREAM 5 GR TUB</option>
+            <option>ELOCON 0.1 % CREAM 10 GR TUB</option>
+            <option>ZYLORIC 100 MG BOX 20 STR @ 10 TAB</option>
+            <option>ZYLORIC 300 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRAFADON 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>GRANTUSIF BOX 10 STR @ 10 CAP</option>
+            <option>H-BOOSTER 50 ML</option>
+            <option>
+              HYOSCINE-N-BUTYLBROMIDE OTTO 20 MG/ML INJEKSI BOX 5 AMP @ 1 ML
+            </option>
+            <option>IKADRYL SYR RASA APEL 60 ML</option>
+            <option>INTERHISTIN 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>INTUNAL-F BOX 25 STR @ 4 TAB</option>
+            <option>KETOPROFEN NOVELL 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>KETOPROFEN NOVELL 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>LAXADINE EMULSI 30 ML</option>
+            <option>LAXADIN EMULSI 60 ML</option>
+            <option>LAXADIN EMULSI 110 ML</option>
+            <option>LOPAMID 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>MECOBALAMINE NOVELL 250 MCG BOX 10 STR @ 10 CAP</option>
+            <option>MECOBALAMIN NOVELL 500 MCG BOX 10 STR @ 10 CAP</option>
+            <option>MERISLON 6 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              METHYLPREDNISOLONE BERNOFARM 8MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>METHYLPREDNISOLONE BERNOFARM 4 MG 10 STR @ 10 TAB</option>
+            <option>METROLET 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>MINOSEP OBAT KUMUR 0.2% 150 MERAH ML</option>
+            <option>MOLEXFLU SYR 60 ML</option>
+            <option>MOMETASONE NOVELL CREAM 0.1 % 10 GR TUB</option>
+            <option>MYCORINE CREAM 5 GR TUB</option>
+            <option>MYCORINE CREAM 15 GR TUB</option>
+            <option>NAPREX 100 MG/ML DROP 15 ML</option>
+            <option>NEURALGIN RX BOX 10 STR @ 10 TAB</option>
+            <option>NEUROPYRON-V BOX 10 STR @ 10 TAB</option>
+            <option>OFLOXACIN NOVELL 400 MG 5 STR @ 10 TAB</option>
+            <option>OMEPRAZOLE NOVELL 20 MG BOX 3 STR @ 10 CAP</option>
+            <option>ONDANSETRON NOVELL 8 MG BOX 2 STR @ 6 TAB</option>
+            <option>ONDANSETRON NOVELL 4 MG BOX 2 STR @ 6 TAB</option>
+            <option>OSTEOCARE VITABIOTICS BOX 5 STR @ 6 TAB</option>
+            <option>PAMOL 120 MG/ 5 ML SYR 60 ML</option>
+            <option>PARANERVION BOX 10 STR @ 10 TAB</option>
+            <option>PIRACETAM BERNOFARM 800 MG BOX 10 STR @ 10 KAPL</option>
+            <option>POLYCROL FORT BOX 24 STR @ 10 TAB</option>
+            <option>POLYCROL SUSP FORT 180 ML</option>
+            <option>POLYCROL SUSP FORT 100 ML</option>
+            <option>POLYCROL SUSP 180 ML</option>
+            <option>POLYCROL SUSP 100 ML</option>
+            <option>POLYSILANE SUSP 180 ML</option>
+            <option>POLYSILANE SUSP 100 ML</option>
+            <option>PRAXION FORTE 250 MG/ 5 ML SUSP 60 ML</option>
+            <option>PRAXION 120 MG/ 5 ML SUSP 60 ML</option>
+            <option>PRAXION 100 MG/ML DROP 15 ML</option>
+            <option>PREGABALIN NOVELL 75 MG BOX 1 STR @ 14 CAP</option>
+            <option>PROPRANOLOL DEXA MEDICA 40 MG BOX 10 STR @ 10 TAB</option>
+            <option>PRORIS FORTE SYR 50 ML</option>
+            <option>PRORIS 100 MG/ 5 ML SUSP 60 ML</option>
+            <option>PRORIS 200 MG BOX 10 STR @ 10 KAPL</option>
+            <option>
+              PURE KIDS FEVER FREE COOLING KOMPRES DEMAM PATCH GEL 4 SHEETS
+            </option>
+            <option>
+              PREMIUM CARE PURE FOR KIDS FEVER FREE COOLING PATCH GEL 4 LEMBAR
+              SCHT
+            </option>
+            <option>RAMA FLU BOX 10 STR @ 10 KAPLET</option>
+            <option>RAMIPRIL NOVELL 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>RANITIDINE DEXA MEDICA 150 MG BOX 10 STR @ 10 TAB</option>
+            <option>SAMCEMIN VITAMIN C SACHET @ 100 TAB</option>
+            <option>SCABIMITE 5% CREAM 30 GR TUB</option>
+            <option>SCABIMITE 5% CREAM 10 GR TUB</option>
+            <option>SILDENAFIL CITRATE NOVELL 50 MG BOX 1 STR @ 4 TAB</option>
+            <option>SILDENAFIL CITRATE NOVELL 100 MG BOX 1 STR @ 4 TAB</option>
+            <option>STOP-X CREAM 15 GR</option>
+            <option>SUCRALFATE COMBIPHAR 500 MG/ 5 ML SUSP 100 ML</option>
+            <option>SUPER TETRA 250 MG BOX 20 STR @ 6 CAP</option>
+            <option>TARIVID 0.3 % EAR DRP @ 5 ML</option>
+            <option>TEMPRA SYR RASA ANGGUR 60 ML</option>
+            <option>TEMPRA SYR RASA ANGGUR 30 ML</option>
+            <option>TEMPRA SYR RASA ANGGUR 100 ML</option>
+            <option>TEMPRA DROP RASA ANGGUR 15 ML</option>
+            <option>TEMPRA FORTE JERUK 60 ML</option>
+            <option>TRIAMCINOLONE ETERCON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>TRICLOFEM 150 MG/ML INJEKSI BOX 20 VIAL @ 1 ML</option>
+            <option>TRIOCID BOX 10 STR @ 10 TAB</option>
+            <option>
+              URSODEOXYCHOLIC ACID ETERCON 250 MG BOX 3 STR @ 10 CAP
+            </option>
+            <option>
+              CEFIXIME TRIHYDRATE NOVELL 200 MG BOX 5 STR @ 10 CAP
+            </option>
+            <option>VAGISTIN BOX 2 STR @ 5 SUPP</option>
+            <option>WELMOVE 12STR 5KAPLET</option>
+            <option>Y-RINS EYE DRP BOX 2 BTL @ 12 ML</option>
+            <option>CDR RASA JERUK MANDARIN TUB 15 TAB</option>
+            <option>CDR CALCIUM-D-REDOXON CDR ORANGE TUB EFF @ 15 TAB</option>
+            <option>CDR CALCIUM-D-REDOXON CDR TUB EFF @ 10 TAB</option>
+            <option>VENTOLIN 100 MCG/DOSE INHALER BTL @ 200 DOSE</option>
+            <option>METFORMIN HCL HEXPHARM 500MG BOX 20 STR @10 TAB</option>
+            <option>APIALYS SYR 100 ML</option>
+            <option>APIALYS DROP 10 ML</option>
+            <option>IMBOOST FORCE BOX 3 STR @ 10 KAPL</option>
+            <option>IMBOOST BOX 5 STR @ 10 TAB</option>
+            <option>
+              AMLODIPINE BESILATE HEXPHARM 10 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>FG TROCHES MEIJI BOX 12 STR @ 10 TAB</option>
+            <option>GOTIK ANTICEPTIC BOX 6 BTL @ 5 ML</option>
+            <option>PROSTAKUR 160 MG BOX 5 STR @ 6 CAP</option>
+            <option>MICROLAX BOX 20 TUB @ 5 ML</option>
+            <option>MICROLAX ENEMA BOX 3 MDS @ 5 ML</option>
+            <option>KALBION BOX 10 STR @ 10 TAB</option>
+            <option>FASGO FORTE BOX 10 STR @1 0 KAPL</option>
+            <option>FASGO 500 MG BOX 20 STR @ 10 TAB</option>
+            <option>MEFENTAN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NEXA 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>BENEURON DRAGEE BOX 10 STR @ 10 TAB</option>
+            <option>MINYAK KAYU PUTIH CAP LANG 60 ML</option>
+            <option>MINYAK KAYU PUTIH CAP LANG 30 ML</option>
+            <option>MINYAK KAYU PUTIH CAP LANG 120 ML</option>
+            <option>MINYAK KAYU PUTIH CAP LANG 210 ML</option>
+            <option>TOLAK ANGIN CAIR PLUS MADU 15 ML BOX 12 SCHT</option>
+            <option>FRESH CARE STRONG ROLL ON 10 ML</option>
+            <option>FRESH CARE MINYAK ANGIN AROMATHERAPY CITRUS 10 ML</option>
+            <option>MY BABY MINYAK TELON PLUS 90 ML</option>
+            <option>MY BABY MINYAK TELON PLUS 60 ML</option>
+            <option>MY BABY MINYAK TELON PLUS EUCALYPTUS 8 JAM 145 ML</option>
+            <option>MY BABY MINYAK TELON 150 ML</option>
+            <option>MY BABY MINYAK TELON PLUS EUCALYPTUS 8 JAM 57ML</option>
+            <option>MY BABY MINYAK TELON PLUS EUCALYPTUS 8 JAM 85ML</option>
+            <option>BODREX BOX 2 STR @ 10 TAB</option>
+            <option>
+              POLIDENT DENTURE ADHESIVE CREAM FLAVOUR FREE 60GR TUB
+            </option>
+            <option>EVER E 250 MG BOX 1 STR @ 12 CAP</option>
+            <option>BODREXIN FLU DAN BATUK PE SYR 56 ML</option>
+            <option>METHISOPRINOL PHAPROS 500MG BOX 5 STR @ 10 TAB</option>
+            <option>ENATIN BOX 2 STR @ 9 CAP</option>
+            <option>SANGOBION BOX 25 STR @ 10 CAP</option>
+            <option>NOURISH SKIN ULTIMATE BOX 1 STR @ 15 TAB</option>
+            <option>NOURISH SKIN ULTIMATE BOX 1 STR @ 30 TAB</option>
+            <option>NOURISH SKIN BOX 1 STR @ 15 TAB</option>
+            <option>NEO DIAFORM BOX 50 STR @ 10 TAB</option>
+            <option>PURE KIDS INHALANT AROMA GERANIUM 10 ML</option>
+            <option>HOT IN CREAM STRONG 60 GR TUB</option>
+            <option>HOT IN CREAM STRONG BTL 120 ML</option>
+            <option>HOT IN CREAM BTL 120 ML</option>
+            <option>GPU MINYAK URUT SEREH 30 ML</option>
+            <option>GPU MINYAK URUT SEREH 60 ML</option>
+            <option>ALOCLAIR PLUS MOUTHWASH 60 ML</option>
+            <option>ALOCLAIR PLUS SPRAY 15 ML</option>
+            <option>ZOLORAL SS SOL 80 ML</option>
+            <option>BETADINE ANTISEPTIC SOL 60 ML</option>
+            <option>BETADINE SALEP ANTISEPTIK 20 GR</option>
+            <option>CALOS CHEW 500 MG 1 BTL @ 60 TAB</option>
+            <option>LACTACYD BABY LIQUID SOAP 60 ML</option>
+            <option>LACTACYD DAILY FEMININE HYGIENE 60 ML</option>
+            <option>PARASOL FACE SUNSCREEN CREAM 20 GR TUB</option>
+            <option>THROMBOPHOB GEL 20 GR</option>
+            <option>THROMBOPHOB SALEP 15 GR</option>
+            <option>SKINTEX SALEP 5 GR</option>
+            <option>ZINKID SYR 100 ML</option>
+            <option>KAFLAM 50 MG BOX 3 STR @ 10 TAB</option>
+            <option>ACYCLOVIR PHAPROS TAB 400MG 5 STR @ 10 TAB</option>
+            <option>AMOXICILLIN PHARMA LAB 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>AMOXICILLIN HEXPHARM 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ASCARDIA 80 MG BOX 10 STR @ 10 TAB</option>
+            <option>FUROSEMIDE KIMIA FARMA 40 MG BOX 20 STR @ 10 TAB</option>
+            <option>MELOXICAM DEXA MEDICA 15 MG BOX 10 STR @ 10 TAB</option>
+            <option>MELOXICAM DEXA MEDICA 7.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRATHAZON 0.5 MG BOX 20 STR @ 10 KAPL</option>
+            <option>FENOFIBRATE MEDIKON 200 MG BOX 2 STR @ 20 CAP</option>
+            <option>VOLTADEX GEL 20GR</option>
+            <option>VOLTADEX 50 MG BOX 5 STR @ 10 KAPL</option>
+            <option>RYVEL 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>HUFAGRIP BP SYR 60 ML</option>
+            <option>HUFAGRIP FLU BATUK ANAK SYR 60 ML</option>
+            <option>FARIZOL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>METROLET 125 MG/ 5 ML SUSP 100 ML</option>
+            <option>DEXYL SYR 60 ML</option>
+            <option>ACITRAL SUSP 120 ML</option>
+            <option>PANADOL SYR 60 ML</option>
+            <option>ALCO PLUS DMP SYR 100 ML</option>
+            <option>ALCO DROP 15 ML</option>
+            <option>ALCOPLUS SYR 100 ML</option>
+            <option>BUFANTACID FORTE SUSP 60 ML</option>
+            <option>DEPAKENE 250 MG/ 5 ML SYR 120 ML</option>
+            <option>BENOSON N CREAM 5 GR TUB</option>
+            <option>ARDIUM 500 MG BOX 4 STR @ 15 TAB</option>
+            <option>SIMARC 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>MEFINAL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>AMOXSAN 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>PROME EXP SYR 100 ML</option>
+            <option>PROME EXP SYR 60 ML</option>
+            <option>FASIPRIM 480 MG BOX 10 STR @ 10 TAB</option>
+            <option>TRILAC 4 MG BOX 3 STR @ 10 TAB</option>
+            <option>ZITANID 2 MG BOX 3 STR @ 10 TAB</option>
+            <option>NEBACETIN POWDER 5 GR BTL</option>
+            <option>NEBACETIN SALEP 5 GR TUB</option>
+            <option>VALSARTAN ETERCON 80MG BOX 3 STR @ 10 TAB</option>
+            <option>DEXKETOPROFEN ETERCON 25MG BOX 5 STR @ 10 TAB</option>
+            <option>ERDOSTEIN (ETE) ETERCON 300 MG BOX 2 STR @ 10 CAP</option>
+            <option>OMEPRAZOLE NULAB 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>GENTASOLON CREAM 5 GR TUB</option>
+            <option>ONDANSETRON QUANTUM INJ 4MG/2ML BOX @ 10 AMP</option>
+            <option>
+              METAMIZOLE SODIUM IMFARMIND 500 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>IKADERM 0.05 % SALEP 10 GR TUB</option>
+            <option>IKADERM 0.05 % CREAM 10 GR TUB</option>
+            <option>MUPIROCIN ETERCON 2% OINT 10 GR</option>
+            <option>TOPSY CREAM 5 GR TUB</option>
+            <option>TRIFAMYCETIN SALEP 15 GR TUB</option>
+            <option>TRIFACYCLINE OINT 15 GR</option>
+            <option>PRIMADOL BOX 10 STR @ 10 KAPL</option>
+            <option>IFIDEX 0.5 MG BTL 100 TAB</option>
+            <option>LAMBUCID SUSP 60 ML</option>
+            <option>LAMBUCID SUSP 100 ML</option>
+            <option>GRATHEOS 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>GEMFIBROZIL PHAPROS 300 MG BOX 10 STR @ 10 CAP</option>
+            <option>CARBIDU 0.5 MG BOX 20 STR @ 10 TAB</option>
+            <option>CARBIDU 0.75 MG BOX 20 STR @ 10 TAB</option>
+            <option>IBUPROFEN HOLI PHARMA 400 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ASAM MEFENAMAT PROMED 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ZENSODERM CREAM 10 GR TUB</option>
+            <option>PIMTRAKOL SYR LEMON 60ML</option>
+            <option>PIMTRAKOL SYR RASA CHERRY 60 ML</option>
+            <option>COLDREXIN SYR 60 ML</option>
+            <option>ALPARA BOX 15 STR @ 10 KAPL</option>
+            <option>MOLEXFLU BOX 15 STR @ 10 KAPL</option>
+            <option>SIMVASTATIN HEXPHARM 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>PIROCAM 20MG BOX 10 STR @10 TAB</option>
+            <option>CHLORAMFECORT H CREAM 10 GR TUB</option>
+            <option>DIONICOL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>MEDIKLIN GEL 15 GR TUB</option>
+            <option>VESPERUM 5 MG/ 5 ML SUSP 60 ML</option>
+            <option>YUSIMOX 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>RHEMAFAR 8 MG BOX 5 STR @ 10 TAB</option>
+            <option>RHEMAFAR 4 MG BOX 10 STR @ 10 KAPL</option>
+            <option>WIROS 20 MG BOX 10 STR @ 10 CAP</option>
+            <option>DESOLEX N CREAM 10 GR TUB</option>
+            <option>ERYMED 2% CREAM 20 GR TUB</option>
+            <option>KETOMED 2% CREAM 15 GR TUB</option>
+            <option>NIACEF 4% GEL 15 GR TUB</option>
+            <option>CETIRIZINE NOVELL 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>KETOROLAC 10 MG NOVELL BOX 10 STR @ 10 TAB</option>
+            <option>BETAHISTINE NOVELL 6 MG BOX 3 STR @ 10 TAB</option>
+            <option>ESPERSON CREAM 5GR</option>
+            <option>ESPERSON 0.25 % SALEP 5 GR TUB</option>
+            <option>DAKTARIN CREAM 5 GR TUB</option>
+            <option>DAKTARIN CREAM 10 GR TUB</option>
+            <option>DAKTARIN BEDAK 20 GR BTL</option>
+            <option>APOLAR N CREAM 10 GR TUB</option>
+            <option>APOLAR CREAM 10 GR TUB</option>
+            <option>FARGETIX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FARSIFEN PLUS BOX 10 STR @ 10 TAB</option>
+            <option>KADITIC 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>LAXANA 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>LERZIN 10 MG BOX 5 STR @ 10 CAP</option>
+            <option>LOSTACEF FORTE 250 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>LOSTACEF 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>LOSTACEF 500 MG BOX 5 STR @ 10 CAP</option>
+            <option>SELVIM 10 MG BOX 5 STR @ 10 KAPL</option>
+            <option>BALSEM OTOT GELIGA MUSCULAR BALM 20 GR</option>
+            <option>ZEGAVIT BOX 10 STR @ 5 KAPL</option>
+            <option>METAMIZOLE SODIUM MEF BOX 10 STR @ 10 KAP</option>
+            <option>CETRIN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>METHOPI 500MG BOX 2 STR @ 4 TAB</option>
+            <option>ACIFAR 5% CREAM 5GR TUB</option>
+            <option>ALOFAR 100 MG 10 BOX STR @ 10 KAPL</option>
+            <option>ALOFAR 300 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DUPHASTON 10 MG BOX 1 STR @ 20 TAB</option>
+            <option>REGUMEN 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>PREABOR TAB 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>HELIATECH SUNSCREEN SPF 45 + 30 ML TUB</option>
+            <option>SCANDERMA PLUS CREAM 10 GR TUB</option>
+            <option>DECADRYL EXPECTORANT SYR 120 ML</option>
+            <option>IBUPROFEN RAMA SUSPENSI 60 ML</option>
+            <option>INTERZINC SYR 60 ML</option>
+            <option>DEGIROL LOZ BOX 10 STR @ 10 TAB</option>
+            <option>DULCOLAX BISACODYL 5 MG BOX 1 STR @ 10 TAB</option>
+            <option>SPIRAMYCIN NOVELL 500 MG BOX 5 STR @ 10 TAB</option>
+            <option>KEJIBELING PLUS GINGSENG BOX 10 STR @ 10 CAP</option>
+            <option>MOLACORT 0.75 MG BOX 20 STR @ 10 TAB</option>
+            <option>MOLACORT 0.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>MICONAZOLE KIMIA FARMA 2% CREAM BOX 24 TUB @ 10 GR</option>
+            <option>KETOCONAZOLE DEXA MEDICA 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>TOPLEXIL SYR 60 ML</option>
+            <option>COMTUSI SYR STRAWBERRY 60 ML</option>
+            <option>COMTUSI SYR 60 ML</option>
+            <option>CANESTEN 1% CREAM 5 GR TUB</option>
+            <option>CANESTEN 500 MG BOX @ 1 VAGINAL TAB + APLIKATOR</option>
+            <option>CENDO MYCOS EYE SALEP 3.5 GR</option>
+            <option>DANEURON BOX 10 STR @ 10 TAB</option>
+            <option>DERMOVATE 0.05 % CREAM 5 GR TUB</option>
+            <option>DERMOVATE 0.05 % CREAM 10 GR TUB</option>
+            <option>ANABION DHA SYR 60 ML</option>
+            <option>CORSATROCIN 200MG / 5ML DRY SYR 60 ML</option>
+            <option>SOFERO BOX 10 STR @ 10 CAP</option>
+            <option>DOSIVEC 175MG / 5ML SUSP DRY 60 ML</option>
+            <option>MAGALAT SUSP 100 ML</option>
+            <option>ALBUSMIN BOX 3 STR @ 10 CAP</option>
+            <option>URISPAS 200 MG BOX 3 STR @ 10 TAB</option>
+            <option>MOLEXDINE SOL 10% BTL @ 60 ML</option>
+            <option>INCIDAL OD 10 MG BOX 5 STR @ 10 CAP</option>
+            <option>IMODIUM 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>PROFERTIL 50 MG BOX 1 STR @ 10 TAB</option>
+            <option>LAMESON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>ERICFIL 100 MG BOX 1 STR @ 4 TAB</option>
+            <option>DIAMICRON MR 60 MG BOX 2 STR @ 15 TAB</option>
+            <option>CONCOR 2.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>MICARDIS 80 MG BOX 2 STR @ 10 TAB</option>
+            <option>HARNAL OCAS 0.4 MG BOX 3 STR @ 10 TAB</option>
+            <option>TENSIVASK 5 MG BOX 5 STR @ 10 TAB</option>
+            <option>
+              NOVOMIX 30 FLEXPEN 100 U/ML INJEKSI BOX 5 CARTRIDGE @ 3 ML
+            </option>
+            <option>SANSULIN LOG-G DISPOPEN BOX 5 DISP PENS @3 ML</option>
+            <option>OSCAL 0.5 MG 1 BTL @ 30 CAP</option>
+            <option>AVODART 0.5 MG BOX 3 STR @ 10 CAP</option>
+            <option>TAMEZOL 20 MG BOX 3 STR @ 10 CAP</option>
+            <option>ACITRAL BOX 10 STR @ 10 TAB</option>
+            <option>GOLDTRION BOX 3 STR @ 10 CAP</option>
+            <option>CAVIT D3 BOX 10 STR @ 10 TAB</option>
+            <option>ARCOXIA 120 MG BOX 3 STR @ 10 TAB</option>
+            <option>ARCOXIA 90 MG BOX 3 STR @ 10 TAB</option>
+            <option>ACTAPIN 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>ACTAPIN 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>ACTAPIN 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>BETASON-N CREAM 5 GR TUB</option>
+            <option>FUCILEX 2 % CREAM 5 GR TUB</option>
+            <option>BEVALEX CREAM 5 GR TUB</option>
+            <option>NOURISH SKIN ULTIMATE BOX 2 STR @ 30 TAB</option>
+            <option>NOURISH SKIN BOX 2 STR @ 30 TAB</option>
+            <option>BYE BYE FEVER BAYI BOX @ 10 PCS</option>
+            <option>BYE BYE FEVER ANAK BOX @ 5 PCS</option>
+            <option>OSTEOKOM BOX 5 STR @ 6 KAPL</option>
+            <option>LIVRON B PLEX BOX 10 STR @ 10 TAB</option>
+            <option>MOXIGRA 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>AFRIN DEWASA 15 ML</option>
+            <option>ILIADIN DEWASA 0.05% NASAL SPRAY 10 ML</option>
+            <option>ILIADIN 0.05% DROP 10 ML</option>
+            <option>COMBANTRIN JERUK SYR 10 ML</option>
+            <option>BACTODERM 2% CREAM 10 GR TUB</option>
+            <option>BACTODERM 2% SALEP 10 GR TUB</option>
+            <option>DAKTARIN 2% ORAL GEL 10 GR TUB</option>
+            <option>MEDIQUIN 5 % CREAM 15 GR TUB</option>
+            <option>DERMIFAR CREAM 10 GR TUB</option>
+            <option>ERPHAFILIN 200 MG 1 BTL @ 100 TAB</option>
+            <option>CALADINE ADULT CARING POWDER 60 GR</option>
+            <option>CALADINE ADULT CARING POWDER BTL 100GR</option>
+            <option>PEDIALYTE SOL B/GUM 500 ML</option>
+            <option>PEDIALYTE SOL STERILE 500 ML</option>
+            <option>ALOCLAIR PLUS ORAL RINSE 60 ML</option>
+            <option>ALOCLAIR PLUS GEL 8 ML TUB</option>
+            <option>BECEFORT SYR 60 ML</option>
+            <option>CANDISTIN 100K IU/ML DRP @ 12 ML</option>
+            <option>CENDO CATARLENT EYE DRP @ 15 ML</option>
+            <option>DIGEST 30 MG BOX 2 STR @ 10 CAP</option>
+            <option>FAKTU BOX 2 STR @ 5 SUPP</option>
+            <option>FAKTU SALEP 20 GR TUB</option>
+            <option>FLUCONAZOLE KIMIA FARMA 150 MG BOX 1 STR @ 10 CAP</option>
+            <option>GLIQUIDONE DEXA MEDICA 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>HEXCAM 15 MG BOX 3 STR @ 10 TAB</option>
+            <option>HISTIGO 6 MG BOX 5 STR @ 10 KAPL</option>
+            <option>LICOKALK BOX 10 STR @ 10 KAPL</option>
+            <option>MEDIAMER B6 BOX 10 STR @ 10 TAB</option>
+            <option>MOLOCO + B12 BOX 6 STR @ 10 TAB</option>
+            <option>MUPIROCIN ETERCON 2 % CREAM 10 GR TUB</option>
+            <option>PIROXICAM KIMIA FARMA 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>SIMVASTATIN BERNOFARM 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>STROCAIN BOX 10 STR @ 10 TAB</option>
+            <option>SVT 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>TAVORA 20 MG BOX 3 STR @ 10 TAB</option>
+            <option>TITAN 150 MG BOX 10 STR @ 10 TAB</option>
+            <option>HI-BONE 1 BTL @ 30 KAPL</option>
+            <option>AMARYL 1 MG BOX 5 STR @ 10 TAB</option>
+            <option>AMARYL 2 MG BOX 5 STR @ 10 TAB</option>
+            <option>AMARYL 3 MG BOX 5 STR @ 10 TAB</option>
+            <option>AMARYL 4 MG BOX 3 STR @ 10 TAB</option>
+            <option>AMARYL M 2/ 500 MG BOX 3 STR @ 10 TAB</option>
+            <option>CURVIT SYR 60 ML</option>
+            <option>CURVIT CL EMULSI 175 ML</option>
+            <option>CURVIT SYR 120 ML</option>
+            <option>IMBOOST KIDS SYR 60 ML</option>
+            <option>IMBOOST KIDS SYR 120 ML</option>
+            <option>MOLACREAM CREAM 30 GR</option>
+            <option>CURCUMA PLUS SUPPORT APPETITE RASA JERUK BTL 60ML</option>
+            <option>CURCUMA PLUS SHARPY SYR RASA STRAWBERRY 60 ML</option>
+            <option>CURCUMA PLUS SHARPY SYR RASA BLACKCURRANT 60 ML</option>
+            <option>CURMUNOS SYR 60 ML</option>
+            <option>DEXANTA SUSP 100 ML</option>
+            <option>COHISTAN EXPECTORANT SYR 60 ML</option>
+            <option>LACTULAX SYR 60 ML</option>
+            <option>GASTRUCID SUSP 60 ML</option>
+            <option>UNIBEBI COUGH SYR 60 ML</option>
+            <option>KEJIBELING BALATIF 10 STR @ 10 CAP</option>
+            <option>FLUCADEX BOX 10 STR @ 10 KAPL</option>
+            <option>BECOM C BOX 10 STR @ 10 KAPL</option>
+            <option>TONIKUM SYR 100 ML</option>
+            <option>TONIKUM SYR 330 ML</option>
+            <option>ALUMY SUSP 100 ML</option>
+            <option>COROVIT SYR 100 ML</option>
+            <option>FASIDOL FORTE SYR 60 ML</option>
+            <option>IFARSYL PLUS SYR 60 ML</option>
+            <option>ENKASARI 120 ML</option>
+            <option>CIUBROS SALICYL BEDAK WITH PARFUME 50 GR</option>
+            <option>LACOLDIN BOX 10 STR @ 10 TAB</option>
+            <option>RIFABIOTIC 600 MG BOX 10 STR @ 10 CAP</option>
+            <option>PHENACOLD SYR 120 ML</option>
+            <option>PHENACOLD SYR 60 ML</option>
+            <option>ANADEX SYR 60 ML</option>
+            <option>ANADEX DRAGEE BOX 10 STR @ 10 TAB</option>
+            <option>BIOGASTRON BOX 10 STR @ 10 TAB</option>
+            <option>DERMARAL 2% CREAM 10 GR TUB</option>
+            <option>SYNALTEN CREAM 5 GR TUB</option>
+            <option>BURNAZIN PLUS CREAM 25GR TUB</option>
+            <option>BURNAZIN 10 MG/GR CREAM 35 GR TUB</option>
+            <option>MYCO-Z SALEP 10 GR TUB</option>
+            <option>CLINOVIR 1% CREAM 5 GR TUB</option>
+            <option>PRODERMIS CREAM 5 GR TUB</option>
+            <option>COLIPRED CREAM 5 GR TUB</option>
+            <option>SKILONE CREAM 10 GR TUB</option>
+            <option>TERIKORTIN SALEP 5 GR TUB</option>
+            <option>ANTIZA SYR 60 ML</option>
+            <option>SANGOBION VITA-TONIK SYR 250 ML</option>
+            <option>DEXIGEN 0.25 % CREAM 5 GR TUB</option>
+            <option>CLONADERM CREAM 5 GR TUB</option>
+            <option>
+              HYDROCORTISONE KIMIA FARMA 2.5% CREAM BOX 24 TUB @ 5 GR
+            </option>
+            <option>PHENOBIOTIC 500 MG CAP BOX 10 STR @ 10 CAP</option>
+            <option>ACLONAC 50 MG BOX 3 STR @ 10 TAB</option>
+            <option>BESTALIN 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>HOMOCLOMIN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>METHYCOBAL 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>NOVALGIN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>HUFAMYCETIN 250 MG BOX 10 STR @ 10 CAP</option>
+            <option>NOVADEX 0.5 MG BOX 20 STR @ 10 KAPL</option>
+            <option>PARIOS BOX 5 STR @ 10 KAPL</option>
+            <option>MUCERA 15 MG/ML DROP 15 ML</option>
+            <option>MUCERA ELIX 30MG/5ML 1 BTL @ 60 ML</option>
+            <option>EPISAN 500 MG/ 5 ML SUSP 100 ML</option>
+            <option>PROPEPSA 500 MG/ 5 ML SUSP 100 ML</option>
+            <option>NECIBLOK 500 G/ 5 ML SUSP 100 ML</option>
+            <option>FLUIMUCIL 200 MG BOX 6 STR @ 10 CAP</option>
+            <option>FLOXIGRA 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DEXTAMINE BOX 30 STR @ 10 TAB</option>
+            <option>FLUVIR 75 MG BOX 1 STR @ 10 CAP</option>
+            <option>GLUCOVANCE 500 MG / 2.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>BERLOSID BOX 10 STR @ 10 TAB</option>
+            <option>COOLING 5 CHERRY 15 ML</option>
+            <option>GRAFACHLOR 4 MG BOX 10 STR @ 10 KAPL</option>
+            <option>PHAROLIT PWD 5.8 G BOX 60 SCHT @ 200 ML</option>
+            <option>LAMBUCID CHEWABLE BOX 20 STR @ 10 TAB</option>
+            <option>AZITHROMYCIN BERNOFARM 500MG BOX 10 STR @ 10 TAB</option>
+            <option>REXCOF PLUS SYR 60 ML</option>
+            <option>EFISOL SOL 10 ML</option>
+            <option>MALTOFER FOL BOX 5 STR @ 6 TAB</option>
+            <option>MALTOFER CHEW BOX 5 STR @ 6 TAB</option>
+            <option>
+              GLYCERYL GUAIACOLATE TRIMAN 100 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>REFAQUIN CREAM 15 GR TUB</option>
+            <option>AMINEFRON BOX 25 STR @ 4 KAPL</option>
+            <option>PRORENAL BOX 10 STR @ 10 TAB</option>
+            <option>BAQUINOR FORTE BOX 2 STR @ 10 KAPL</option>
+            <option>SPORETIK 200 MG BOX 1 STR @ 10 CAP</option>
+            <option>GALVUS 50 MG BOX 2 STR @ 14 TAB</option>
+            <option>HARNAL D 0.2 MG BOX 2 STR @ 14 TAB</option>
+            <option>PROVELYN 75 MG BOX 1 STR @ 14 CAP</option>
+            <option>HERBESSER CD 200 MG BOX 3 STR @ 10 CAP</option>
+            <option>ADALAT OROS 30 MG BOX 3 STR @ 10 TAB</option>
+            <option>NATTO-10 BOX 5 STR @ 6 KAPL</option>
+            <option>KALXETIN 10 MG BOX 3 STR @ 10 CAP</option>
+            <option>BLESIFEN 50 MG BOX 2 STR @ 10 TAB</option>
+            <option>ARINIA 15 MG BOX 1 STR @ 10 TAB</option>
+            <option>THROMBO ASPILET 80 MG BOX 5 STR @ 30 TAB</option>
+            <option>BECOM-ZET BOX 10 STR @ 10 KAPL</option>
+            <option>XENICAL 120 MG BOX 1 STR @ 21 CAP</option>
+            <option>TROLIT BOX 6 SCHT @ 4 GR</option>
+            <option>OXOFERIN SOL 30 ML</option>
+            <option>BENOSON N CREAM 15 GR TUB</option>
+            <option>CRESTOR 40 MG BOX 3 STR @ 10 TAB</option>
+            <option>FORBETES 850 MG BOX 10 STR @ 10 TAB</option>
+            <option>FORBETES 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>NEUROBION BOX 25 STR @ 10 TAB</option>
+            <option>NEUROBION FORTE 5000 BOX 25 STR @ 10 TAB</option>
+            <option>FLEXAMINE CREAM 30 GR</option>
+            <option>MADOPAR DISPERSIBLE 125 MG 1 BTL @ 30 TAB</option>
+            <option>
+              PULMICORT RESPULES 0.25 MG/ML BOX 4 PAK @ 5 RESPULES @ 2 ML
+            </option>
+            <option>
+              PULMICORT RESPULES 0.5 MG/ML BOX 4 PAK @ 5 RESPULES @ 2 ML
+            </option>
+            <option>CALADINE POWDER ORIGINAL 60 GR BTL</option>
+            <option>CALADINE POWDER ORIGINAL 100 GR BTL</option>
+            <option>DORNER 20 MCG BOX 3 STR @ 10 TAB</option>
+            <option>ZINC INDOFARMA 20MG BOX 10 STR @ 10 TAB</option>
+            <option>BRILINTA 90 MG BOX 4 STR @ 14 TAB</option>
+            <option>BRAINACT 500MG BOX, 3 STR @ 10 TAB</option>
+            <option>ROSAGEN BOX 15 SCHT</option>
+            <option>SURBEX Z BOX 5 STR @ 6 TAB</option>
+            <option>ACETYLCYSTEINE YARINDO 200MG BOX 10 STR @ 10 CAP</option>
+            <option>ZAMBUK OINT 8 GR POT</option>
+            <option>XEPAZYM BOX 5 STR @ 6 CAP</option>
+            <option>BETADINE OBAT KUMUR 190 ML</option>
+            <option>
+              LEVEMIR FLEXPEN 100U/ML INJEKSI BOX 5 CARTRIDGE @ 3 ML
+            </option>
+            <option>EPEXOL 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>FLAMAR GEL 20 GR TUB</option>
+            <option>FORMYCO CREAM 10 GR TUB</option>
+            <option>HISTAPAN 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>OCUSON BOX 10 STR @ 10 TAB</option>
+            <option>MUCOHEXIN ELIX 4 MG/5 ML SYR 120 ML</option>
+            <option>PIROFEL 20 MG BOX 10 STR @ 10 CAP</option>
+            <option>PIROFEL 10 MG BOX 10 STR @ 10 CAP</option>
+            <option>SAGESTAM EYE SALEP @ 3.5 GR</option>
+            <option>SANPRIMA SUSP 60 ML</option>
+            <option>TRICHODAZOL 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>TOPCORT 0.25 % CREAM 10 GR TUB</option>
+            <option>SANMAG SUSPEN SYR 120 ML</option>
+            <option>SANMOL DROP 15 ML</option>
+            <option>SANMOL 500 MG BOX 25 STR @ 4 TAB</option>
+            <option>FENOFIBRATE HEXPHARM 300 MG BOX 3 STR @ 10 CAP</option>
+            <option>AVESCO 20 MG BOX 3 STR @ 10 KAPL</option>
+            <option>INTERXANTHIN BOX 3 STR @ 10 TAB</option>
+            <option>DISMENO BOX 5 STR @ 6 CAP</option>
+            <option>ASTHIN FORCE 4 MG BOX 3 STR @ 6 TAB</option>
+            <option>OMEMOX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FLEXAMINE CREAM 15 GR</option>
+            <option>SALBRON EKSPEKTORAN SYR 100 ML</option>
+            <option>SALBRON SYR 100 ML</option>
+            <option>UTROGESTAN 200 MG BOX 15 CAP</option>
+            <option>UTROGESTAN 100 MG BOX 2 STR @ 15 CAP</option>
+            <option>
+              LITTMANN STETOSKOP DEWASA MASTER CLASSIC III ( GREY )
+            </option>
+            <option>LAFALOS CREAM 20 GR TUB</option>
+            <option>VITAMAM 2 BOX 4 STR @ 7 CAP</option>
+            <option>PROLACTA DHA MOTHER BOX 6 STR @ 10 CAP</option>
+            <option>ATORVASTATIN DEXA MEDICA 20 MG BOX 5 STR @ 6 TAB</option>
+            <option>OMEFULVIN 125 MG BOX 10 STR @ 10 TAB</option>
+            <option>ONBREZ BREEZHALER 300 MCG BOX 3 STR @ 10 CAP</option>
+            <option>MEIACT 200 MG 2 STR @ 10 TAB</option>
+            <option>FAMOCID 20 MG BOX 5 STR @ 6 TAB</option>
+            <option>STALEVO 100MG BTL @ 30 TAB</option>
+            <option>
+              SYMBICORT INHALER 160/4.5 BOX 1 TURBUHALER @ 120 DOSIS
+            </option>
+            <option>
+              SYMBICORT INHALER 160/4.5 BOX 1 TURBUHALER @ 60 DOSIS
+            </option>
+            <option>DEPAKOTE 250MG 1 BTL @ 100 TAB</option>
+            <option>DEPAKOTE ER 250 MG 1 BTL @ 100 TAB</option>
+            <option>DEPAKOTE ER 500 MG 1 BTL @ 100 TAB</option>
+            <option>EUTHYROX 100 MCG BOX 4 STR @ 25 TAB</option>
+            <option>TRIZEDON MR 35 MG BOX 2 STR @ 30 TAB</option>
+            <option>THYROZOL 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>THYROZOL 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>NEVOX XR 500 MG BOX 3 STR @ 10 TAB</option>
+            <option>URINTER 400 MG BOX 10 STR @ 10 CAP</option>
+            <option>INTERVASK 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>INTERPRIL 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>ROSUFER 20 MG BOX 3 STR @ 10 TAB</option>
+            <option>ROSUFER 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>VOLTAREN 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>MYONAL 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>FLUIMUCIL PEDIATRIC 100 MG BOX 30 SCHT</option>
+            <option>METRONIDAZOLE BERNOFARM 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>TARIVID 0.3 % EYE DRP @ 5 ML</option>
+            <option>NULACTA BOX 5 STR @ 12 CAP</option>
+            <option>LAKTAFIT BOX 6 STR @ 10 TAB</option>
+            <option>DECAFIL 150 MG BTL 1000 TAB</option>
+            <option>NIFURAL 250 MG/ 5 ML SYR 60 ML</option>
+            <option>GLUCOVANCE 500 MG / 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>ECOSOL NACL 0.9% INFUS 500 ML</option>
+            <option>GLUCOPHAGE 850 MG BOX 15 STR @ 8 TAB</option>
+            <option>GLUCOPHAGE 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>NARFOZ 4 MG BOX 2 STR @ 6 TAB</option>
+            <option>PARIET 10 MG BOX 1 STR @ 14 TAB</option>
+            <option>PARIET 20 MG BOX 1 STR @ 14 TAB</option>
+            <option>PUMPITOR 20 MG BOX 2 STR @ 10 CAP</option>
+            <option>FIXIPHAR 200 MG BOX 1 STR @ 10 CAP</option>
+            <option>PLACTA 75 MG BOX 3 STR @ 10 TAB</option>
+            <option>KSR 600 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLURENORM 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>SELOXY BOX 5 STR @ 6 KAPL</option>
+            <option>SELOXY AA BOX 5 STR @ 6 KAPL</option>
+            <option>SOHOBION 5000 BOX 10 STR @ 10 TAB</option>
+            <option>SOHOBION INJEKSI BOX 10 AMP @ 3 ML</option>
+            <option>OMZ 20 MG BOX 5 STR @ 6 CAP</option>
+            <option>VELACOM PLUS 2/500 BOX 3 STR @ 10 KAPL</option>
+            <option>URSODEOXYCHOLIC ACID DEXA 250MG BOX 5 STR @ 6 CAP</option>
+            <option>GABAPENTIN DEXA MEDICA 300 MG BOX 3 STR @ 10 CAP</option>
+            <option>LEVAZIDE BOX 5 STR @ 6 TAB</option>
+            <option>FORNEURO BOX 5 STR @ 6 TAB</option>
+            <option>PROSTACOM 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>PLATOGRIX 75 MG BOX 2 STR @ 14 TAB</option>
+            <option>BETA-ONE 2.5 MG BOX 5 STR @ 10 TAB</option>
+            <option>IRVELL 300 MG BOX 2 STR @ 10 TAB</option>
+            <option>PLETAAL 100 MG BOX 3 STR @ 10 TAB</option>
+            <option>ISPRINOL 500 MG BOX 2 STR @ 4 TAB</option>
+            <option>PROVERA 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>KALTROFEN 100 MG BOX 2 STR @ 5 SUPP</option>
+            <option>SEROQUEL XR 200 MG BOX 1 STR @ 10 TAB</option>
+            <option>SEROQUEL XR 300 MG BOX 1 STR @ 10 TAB</option>
+            <option>METRIX 1 MG BOX 2 STR @ 15 TAB</option>
+            <option>METRIX 2 MG BOX 2 STR @ 15 TAB</option>
+            <option>METRIX 4 MG BOX 2 STR @ 15 TAB</option>
+            <option>V-BLOC 6.25 MG BOX 3 STR @ 10 TAB</option>
+            <option>V-BLOC 25 MG BOX 3 STR @ 10 TAB</option>
+            <option>PIONIX 15 MG BOX 3 STR @ 10 TAB</option>
+            <option>NEPATIC 300 MG BOX 5 STR @ 10 CAP</option>
+            <option>VENARON 300 MG BOX 10 STR @ 10 CAP</option>
+            <option>MECOVIT-D3 1000 IU BOX 3 STR @ 10 TAB</option>
+            <option>FLUIMUCIL 200 MG GRANULE BOX 30 SCHT @ 1 GR</option>
+            <option>VALSARTAN HEXPHARM 80 MG BOX 3 STR @ 10 TAB</option>
+            <option>
+              NOVORAPID FLEXPEN 100 U/ML INJEKSI BOX 5 CARTRIDGE @ 3 ML
+            </option>
+            <option>D1K VITAMIN D3 - 1000 IU BTL 30 CAP</option>
+            <option>VALSARTAN NOVELL 160MG BOX 3 STR @10 TAB</option>
+            <option>MUCOS 15 MG/ML DROP 20 ML</option>
+            <option>MUCOS 15 MG/ 5 ML SYR 60 ML</option>
+            <option>
+              LANTUS SOLOSTAR 100 IU/ML INJEKSI BOX 5 CARTRIDGE @ 3 ML
+            </option>
+            <option>FORELAX 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>CETEME BOX 36 STR @ 12 TAB</option>
+            <option>CTM PIM 4 MG 1 BTL @ 100 TAB</option>
+            <option>ZAMEL SYR MIX FRUIT 60 ML</option>
+            <option>ZAMEL DROP 16 ML</option>
+            <option>ISONIAZID HOLI 300MG BOX 10 STR @ 10 TAB</option>
+            <option>GLUCOPHAGE XR 750 MG BOX 8 STR @ 15 TAB</option>
+            <option>NORVASK 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>NORVASK 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>SALEP 2-4 CIUBROS 15 GR TUB</option>
+            <option>CLOBETASOL ETERCON 0.05% CREAM 10GR TUB</option>
+            <option>CORSEL BOX 3 STR @ 10 KAPL</option>
+            <option>LANCID 30 MG BOX 2 STR @ 10 CAP</option>
+            <option>
+              SYMBICORT INHALER 80/4.5 BOX 1 TURBUHALER @ 60 DOSIS
+            </option>
+            <option>FOLAVIT 400 MG BOX 10 STR @ 10 TAB</option>
+            <option>STERIMAR BABY NASAL SPARY 50 ML</option>
+            <option>DOLOFEN-F 400 MG BOX 10 STR @ 10 CAP</option>
+            <option>LOSARTAN HEXPHARM 50 MG BOX 3 STR @ 10 KAPL</option>
+            <option>HISTRINE 10 MG/ML DROP 10 ML</option>
+            <option>OMEDOM SYR 60 ML</option>
+            <option>VISANCORT CREAM 10 GR TUB</option>
+            <option>ULTRAVITA BOX 25 STR @ 4 TAB</option>
+            <option>MYCOSPOR 1 % CREAM 5 GR TUB</option>
+            <option>ONDANSETRON HCL LANDSON 8 MG BOX 3 STR @ 10 TAB</option>
+            <option>SUVESCO 10 MG BOX 2 STR @ 10 TAB</option>
+            <option>CPG 75MG BOX 3 STR @ 10 TAB</option>
+            <option>SERETIDE DISKUS 50/250 MCG BOX</option>
+            <option>NITROKAF RETARD 2.5 MG BOX 10 STR @ 10 CAP</option>
+            <option>PROPRANOLOL DEXA MEDICA 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>PYRAZINAMIDE PROMED 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>TOFEDEX 25 MG BOX 3 STR @ 10 TAB</option>
+            <option>KUTUS KUTUS MINYAK BALUR TAMBA WARAS 100ML</option>
+            <option>BUSCOPAN PLUS BOX 25 STR @ 4 TAB</option>
+            <option>BETASERC 8 MG BOX 4 STR @ 25 TAB</option>
+            <option>STATOR 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>
+              PRORIS IBUPROFEN TRIPLE ACTION BOX 10 BLSTR @ 10 CAP
+            </option>
+            <option>PRIMADEX FORTE BOX 10 STR @ 10 TAB</option>
+            <option>BUFACARYL BOX 10 STR @ 10 KAPL</option>
+            <option>VISTAT 120 MG BOX 3 STR @ 10 CAP</option>
+            <option>GENOINT SALEP 15GR TUB</option>
+            <option>OXYVELL BOX 5 STR @ 6 KAPL</option>
+            <option>FEMISIC 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>REMATOF 100MG BOX 5 STR @ 10 TAB</option>
+            <option>CEFIXIME BERNOFARMA 200 MG BOX 3 STR @ 10 KAPL</option>
+            <option>CENDO EYEFRESH EYE DRP @ 5 ML</option>
+            <option>TEGRETOL 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>BAMGETOL 200MG BOX 10 STR @ 10 TAB</option>
+            <option>CEFADROXIL INFION 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>SANOSKIN OXY GEL 30 GR</option>
+            <option>SANOSKIN MELLADERM PLUS GEL 20 GR TUB</option>
+            <option>NOVORAPID JARUM</option>
+            <option>PYRAZINAMIDE HOLI 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>BROADAMOX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>BROADAMOX 125MG/5ML DRY SYR BTL 60ML</option>
+            <option>BROADAMOX SYR DRY 250MG/5ML BOX 1 BTL @ 60 ML</option>
+            <option>RANITIDINE HCL HEXPHARM 150MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              CIMETIDINE SEJAHTERA LESTARI FARMA 200MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>VERILE ACNE GEL 10 GR TUB</option>
+            <option>D1K VITAMIN D3 1000 IU BOX 10 STR @ 10 KAP</option>
+            <option>AMOXICILLIN NOVA 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>
+              CALCIUM LACTATE MERSIFARMA 500 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>GABAPENTIN MERSI 300MG BOX 5 STR @ 10 CAP</option>
+            <option>DULCOLAX ADLT 10 MG BOX 10 STR @ 5 SUPP</option>
+            <option>HUFAMYCETIN 125 MG / 5 ML SYR 60 ML</option>
+            <option>KALITAKE BOX 20 SCHT @ 5 GR</option>
+            <option>YUSIMOX 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>YUSIMOX FORTE 250 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>ROVERTON 15 MG/ 5 ML SYR 60 ML</option>
+            <option>FASIDOL 120 MG/ 5 ML SYR 60 ML</option>
+            <option>FARSIFEN 100 MG/ 5 ML SUSP 60 ML</option>
+            <option>KOMPOLAX EMULSI 60 ML</option>
+            <option>LERZIN 10 MG/ML DROP 15 ML</option>
+            <option>LERZIN 5 MG/ 5 ML SYR 60 ML</option>
+            <option>DEVOSIX DROP 7,5 MG 15ML</option>
+            <option>CAZETIN 100K IU/ML DROP @ 15 ML</option>
+            <option>FLUTOP C SYR 60 ML</option>
+            <option>BERLOSID SUSP 60 ML</option>
+            <option>OXICOBAL 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>POLOFAR PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>SOLINFEC 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>SOLINFEC CREAM 5 GR TUB</option>
+            <option>SEREMIG 10 MG BOX 5 STR @ 10 KAPL</option>
+            <option>HELIXIM 100 MG BOX 3 STR @ 10 CAP</option>
+            <option>LATIBET 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>NISAGON CREAM 5 GR TUB</option>
+            <option>NOVASTAN SYR 50MG/5ML 60 ML</option>
+            <option>CO-AMOXICLAV MEPROFARM 500/125 MG BOX 5 STR @ 6 TAB</option>
+            <option>CO-AMOXICLAV MEPRO 625 MG BOX 5 STR @ 6 TAB</option>
+            <option>TB VIT 6 BOX 10 STR @ 10 TAB</option>
+            <option>GRAFAMIC 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>LINOGRA 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>BORRAGINOL N SALEP 15 GR TUB</option>
+            <option>BORRAGINOL S SALEP 15 GR TUB</option>
+            <option>BORRAGINOL N BOX 2 STR @ 5 SUPP</option>
+            <option>BORRAGINOL S BOX 2 STR @ 5 SUPP</option>
+            <option>COMBIVENT INJEKSI BOX 20 VIAL @ 2.5 ML</option>
+            <option>TAVORA 10 MG BOX 3 BLIS @ 10 TAB</option>
+            <option>PREGABALIN DEXA MEDICA 75 MG BOX 3 STR @ 10 CAP</option>
+            <option>ERLAMYCETIN 1% EAR DRP @ 10 ML</option>
+            <option>EYEVIT BOX 5 STR @ 6 TAB</option>
+            <option>TRIOCID SUSP 60 ML</option>
+            <option>TOPAMAX 25 MG BOX 6 STR @ 10 TAB</option>
+            <option>TOPAMAX 50 MG BOX 6 STR @ 10 TAB</option>
+            <option>
+              MEFENAMIC ACID BERNOFARM 500 MG BOX 10 STR @ 10 KAPL
+            </option>
+            <option>SODIUM BICARBONATE PIM 1 BTL @ 100 TAB</option>
+            <option>BIOCREAM CREAM 20 GR TUB</option>
+            <option>BUFACORT-N CREAM 5 GR TUB</option>
+            <option>CALCIFAR BOX 10 STR @ 10 KAPL</option>
+            <option>CALCIFAR PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>CEFADROXIL HEXPHARM 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>CEFADROXIL BERNOFARM 125 MG/5 ML DRY SYR 60 ML</option>
+            <option>Q-VLOX 500 MG BOX 5 STR @ 10 TAB</option>
+            <option>OTTOPAN DROP 15 ML</option>
+            <option>KETOCONAZOLE HEXPHARM 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              ASAM TRANEKSAMAT BERNOFARM 500 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>SIMVASTATIN DEXA MEDICA 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>VERMOX 500 MG BOX 24 STR @ 1 TAB</option>
+            <option>FARMALAT ER 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>CLARITIN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>CLABAT BOX 4 STR @ 5 KAPL</option>
+            <option>PHAROLIT SITRAS BOX 60 SACHET @ 4,3 GRAM</option>
+            <option>PROSPAN COUGH SYR 70 ML</option>
+            <option>METFORMIN HEXPHARM 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>STERIMAR NASAL SPRAY HYGIENE & COMFORT 50 ML</option>
+            <option>LECOZINC BOX 10 STR @ 10 TAB</option>
+            <option>OSTE FORT BOX 5 STR @ 6 KAPL</option>
+            <option>FITBON PLUS BOX 5 STR @ 6 KAPL</option>
+            <option>MEFIX 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>ETAFLOX BOX 10 STR @ 10 TAB</option>
+            <option>CORSATROCIN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NOVAMOX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>AVAMYS SUSP 120 SPRAY</option>
+            <option>
+              NYSTATIN BERNOFARM 100.000 IU SUSP BOX 10 BTL @ 12 ML
+            </option>
+            <option>CAVICUR BOX 10 STR @ 10 TAB</option>
+            <option>KAMOLAS 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>SINGULAIR 10 MG BOX 4 STR @ 7 TAB</option>
+            <option>MUCYLIN 200 MG BOX 6 STR @ 10 CAP</option>
+            <option>ROSUVASTATIN CALCIUM NOVELL 20MG BOX 2 STR @ 10 TAB</option>
+            <option>NASONEX 0.051 MG INHALER @ 60 DOSE</option>
+            <option>SARIDON EXTRA BOX 1 STR @ 10 KAPL</option>
+            <option>FERRIZ SYR 100 ML</option>
+            <option>ADROME 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>COMTUSI SYR 100 ML</option>
+            <option>ETABION BOX 10 STR @ 10 TAB</option>
+            <option>NEBILET 5 MG BOX 2 STR @ 14 TAB</option>
+            <option>INXILON 4MG BOX 10 STR @ 10 TAB</option>
+            <option>MIRASIC 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>LISTERINE FRESH BURST 100ML</option>
+            <option>LISTERINE COOL MINT 100 ML</option>
+            <option>LISTERINE GREEN TEA 100 ML</option>
+            <option>LISTERINE ORIGINAL 250 ML BTL</option>
+            <option>XONCE 500MG JERUK BOX 10 STR @ 6 TAB</option>
+            <option>KALNEX 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>BISOLVON SOL 50 ML</option>
+            <option>DEXYMOX FORTE 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NEOCENTA GEL 15 GR TUB</option>
+            <option>NESTACORT 2.5% CREAM 5 GR TUB</option>
+            <option>GENALTEN CREAM 5 GR TUB</option>
+            <option>SKIZON CREAM 10 GR TUB</option>
+            <option>FOLAMEF 1000 MCG BOX 10 STR @10 TAB</option>
+            <option>HICO GEL 15 GR</option>
+            <option>MOLADERM CREAM 10 GR TUB</option>
+            <option>ALPHAMOL 120 MG/ 5 ML SYR 60 ML</option>
+            <option>BUFANTACID BOX 10 STR @ 10 TAB</option>
+            <option>BUFANTACID SYR 60 ML</option>
+            <option>MIRASIC SYR 60 ML</option>
+            <option>DEXTACO SYR 60 ML</option>
+            <option>NEO-KAOMINAL SUSP 60 ML</option>
+            <option>NOVAMAG SUSP 60 ML</option>
+            <option>HUFABION BOX 10 STR @ 10 CAP</option>
+            <option>EMTRIX GEL 10 ML</option>
+            <option>CANESTEN SD 0.5GR SUPP 1 TAB</option>
+            <option>CANESTEN CREAM 10 GR TUB</option>
+            <option>CARMED 20% CREAM 40 GR TUB</option>
+            <option>VICKS VAPORUB 25 GR</option>
+            <option>VICKS VAPORUB SALEP BOX 12 POT @ 10 GR</option>
+            <option>MUCOSTA 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>NARMIG 25 MG BOX 5 STR @ 10 TAB</option>
+            <option>MICROGYNON LIBI BOX 10 STR @28 TAB</option>
+            <option>MICROGYNON LINGKARAN BIRU BOX 1 STR @ 28 TAB</option>
+            <option>NIZORAL CREAM 5 GR TUB</option>
+            <option>TRANSPULMIN BB BALSAM 20 GR</option>
+            <option>TRANSPULMIN BB BALSAM 10 GR</option>
+            <option>SURBEX-T BOX 5 STR @ 6 TAB</option>
+            <option>DECAFIL AMINOPHYLLIN HARSEN 150 MG POT 100 TAB</option>
+            <option>DICLOFENAC SODIUM NOVELL 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>DICLOFENAC SODIUM PHAPROS 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>GLIBENCLAMIDE INDOFARMA 5 MG 10 STR @ 10 KAPL</option>
+            <option>SIMVASTATIN BERNOFARM 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              THIAMPHENICOL SEJAHTERA LESTARI FARMA 500 MG BOX 10 STR @10 TAB
+            </option>
+            <option>LANSOPRAZOLE IFARS 30 MG BOX 5 STR @ 10 CAP</option>
+            <option>LANSOPRAZOLE NUFARINDO 30MG BOX 2 STR @ 10 CAP</option>
+            <option>OMEPRAZOLE ERRITA PHARMA 20 MG BOX 3 STR @ 10 CAP</option>
+            <option>CEFADROXIL OGB BETA 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>TRINORDIOL-28 BOX 2 STR @ 28 TAB</option>
+            <option>ANTIHEMOROID BOX 1 STR @ 10 SUPP</option>
+            <option>KETOROLAC BERNOFARM 10 MG BOX 3 STR @ 10 KAPL</option>
+            <option>SVT 20MG BOX 10 STR @ 10 TAB</option>
+            <option>SUCRALFATE MULIA FARMA 500MG / 5ML SYR 100ML</option>
+            <option>HUFABETHAMIN SYR 60 ML</option>
+            <option>OMEMOX 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>KUTOIN 100 MG BOX 10 STR @ 10 CAP</option>
+            <option>OMEPROKSIL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FAXIDEN 10 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FAXIDEN 20 MG BOX 10 STR @ 10 KAPL</option>
+            <option>HOLIMOX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>LASMALIN 2.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>CAPTOPRIL ERRITA 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              ASAM MEFENAMAT ERRITA PHARMA 500 MG BOX 10 STR @ 10 KAPL
+            </option>
+            <option>COLPICA BOX 10 STR @ 10 TAB</option>
+            <option>NOVACHLOR SYR 125MG/5ML 1 BTL @ 60 ML</option>
+            <option>MEXON BOX 10 STR @ 10 TAB</option>
+            <option>NUFADEX M 0.75 MG BOX 10 STR @ 10 KAPL</option>
+            <option>TOPCILLIN 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>TOPCILLIN SYR DRY 250MG/5ML BOX 1 BTL @ 60 ML</option>
+            <option>PREDNISONE HOLI 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>PREDNISONE HOLI 5 MG 1 BTL @ 100 TAB</option>
+            <option>SALBUTAMOL GRAHA FARMA 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>ZEVASK 10MG BOX 10 STR @ 10 TAB</option>
+            <option>ZEVASK 5MG BOX 10 STR @ 10 KAPLET</option>
+            <option>VOSEA 10MG BOX 10 STR @ 10 TAB</option>
+            <option>ZEGREN 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>CETROL 10 MG BOX 5 STR @ 10 KAPL</option>
+            <option>OMELLEGAR 10 MG BOX 10 STR @ 10 KAPL</option>
+            <option>SOFT U DERM 2% CREAM 40 GR</option>
+            <option>DENICAM 20 MG BOX 10 STR @ 10 CAP</option>
+            <option>FLOXIFAR 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>XICALOM 20 MG BOX 10 STR @ 10 CAP</option>
+            <option>ANASTAN FORTE BOX 10 STR @ 10 KAPL</option>
+            <option>DUMOCYCLINE 250 MG BOX 25 STR @ 20 CAP</option>
+            <option>CILOSTAZOL BERNO 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>PREDNISONE TRIMAN 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>NATRIUM KLORIDA WIDATRA 0.9% INFUS 500 ML</option>
+            <option>CLINDAMYCIN BERNOFARM 300MG BOX 10 STR @ 10 CAP</option>
+            <option>PHARMATON FORMULA BOX 10 STR @ 5 CAP</option>
+            <option>BORAX GLYCERINE GOM CITO 10% BOX 24 BTL @ 8 ML</option>
+            <option>BRONEX 8 MG BOX 10 STR @ 10 TAB</option>
+            <option>GASTRAN BOX 10 STR @ 10 TAB</option>
+            <option>LEVERTRAN SALEP BOX 12 POT @ 15 GR</option>
+            <option>ICHTYOL OINT NUFARINDO 12 POT @ 15 G</option>
+            <option>CDR BOX 12 STR @ 2 TAB</option>
+            <option>
+              OXYTETRACYCLINE KIMIA FARMA SALEP KULIT 3 % BOX 25 TUB @ 5 GR
+            </option>
+            <option>GRIVIN FORTE 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>TIAVELL 100 MG BOX 10 BLISTER @10 TAB</option>
+            <option>DANASONE 0.5 MG BOX 20 STR @ 10 TAB</option>
+            <option>FASIDOL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NIPE DROP 15 ML</option>
+            <option>NIPE FEVER 100MG / ML DROPS 15ML</option>
+            <option>NIPE FEVER 160MG / 5ML SYR 60ML</option>
+            <option>NIPE EXPECTORANT KIDS 60ML</option>
+            <option>ORSADERM CREAM 5 GR TUB</option>
+            <option>KETOCONAZOLE PROMED 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>MIXALGIN BOX 10 STR @ 10 KAPL</option>
+            <option>GASELA 150 MG BOX 10 STR @ 10 TAB</option>
+            <option>HUFADINE 150 MG BOX 10 STR @ 10 KAPL</option>
+            <option>GENTAMICIN KIMIA FARMA 0.1% CREAM 5GR</option>
+            <option>GENTAMICIN KIMIA FARMA 0.1 % SALEP BOX TUB @ 5 GR</option>
+            <option>MYCAZOL 2 % CREAM 5 GR TUB</option>
+            <option>SELKOM C BOX 10 STR @ 10 CAP</option>
+            <option>BACTODERM 2% CREAM 5 GR TUB</option>
+            <option>IKAGEN SALEP 10 GR TUB</option>
+            <option>IKAGEN 0.1 % CREAM 10 GR TUB</option>
+            <option>BISOLVON 8 MG BOX 10 STR @ 10 TAB</option>
+            <option>KETESSE 25 MG BOX 5 STR @ 10 TAB</option>
+            <option>L-BIO BOX 30 SCHT @1 GR</option>
+            <option>RHELAFEN SUSP 60 ML</option>
+            <option>RHELAFEN FORTE SUSP 60 ML</option>
+            <option>BIOSTRUM SYR 100 ML</option>
+            <option>LAPIBAL 500 MCG BOX 10 STR @ 10 CAP</option>
+            <option>CAL-95 BOX 5 STR @ 6 KAPL</option>
+            <option>AMADIAB 2 MG BOX 5 STR @ 10 KAPL</option>
+            <option>MICROGEST 100MG ORAL/VAGINAL BOX @ 30 SOFT CAP</option>
+            <option>MYONEP 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>ENBATIC SALEP 10 GR TUB</option>
+            <option>GENOINT 0.3 % EYE DRP @ 5 ML</option>
+            <option>PANADOL EXTRA BOX 10 STR @ 10 KAPL</option>
+            <option>PANADOL BOX 10 STR @ 10 KAPL</option>
+            <option>AMOXICILLIN NOVAPHARIN 125MG SYR 100ML</option>
+            <option>AMOXICILLIN NOVAPHARIN 125MG / 5ML DRY SYRUP 60 ML</option>
+            <option>DENOMIX CREAM 10 GR TUB</option>
+            <option>
+              BPJS PRB - LEVEMIR FLEXPEN 100 U/ML BOX 5 FLEXPEN @ 3ML
+            </option>
+            <option>BPJS PRB - NOVOMIX 30 100U/ML BOX 5 FLEXPEN @ 3ML</option>
+            <option>BPJS PRB - NOVORAPID FLEXPEN BOX 5 FLEXPEN @ 3ML</option>
+            <option>
+              BPJS PRB - LANTUS SOLOSTAR INJ 100 UNIT/ML BOX 5 FLEXPEN
+            </option>
+            <option>LANTUS 100 IU/ML INJEKSI BOX 5 CARTRIDGE @ 3 ML</option>
+            <option>HEVIT-C 1000 MG BOX 10 STR @ 10 TAB</option>
+            <option>DEXTAMIN BOX 10 STR @ 10 KAPL</option>
+            <option>DEXTAMINE SYR 60 ML</option>
+            <option>PROSPAN SYR 100 ML</option>
+            <option>DERMATIX ULTRA GEL 5GR TUB</option>
+            <option>OSCAL 0.25 MG 1 BTL @ 30 CAP</option>
+            <option>AMBEVEN BOX 10 STR @ 10 CAP</option>
+            <option>BODREX EXTRA BOX 25 STR @ 4 TAB</option>
+            <option>MIXAGRIP FLU BOX 25 STR @ 4 TAB</option>
+            <option>CAP KAPAK MINYAK ANGIN 5 ML</option>
+            <option>MINYAK ANGIN CAP KAPAK 10 ML</option>
+            <option>MINYAK ANGIN CAP KAPAK 14 ML</option>
+            <option>OBAT SAKIT GIGI CAP BURUNG KAKAK TUA 2 ML</option>
+            <option>POLAR BEAR MINYAK ANGIN 8ML</option>
+            <option>POLAR BEAR MINYAK ANGIN 18ML</option>
+            <option>POLAR BEAR MINYAK ANGIN 27ML</option>
+            <option>MINYAK ANGIN BERUANG 8 ML</option>
+            <option>MINYAK ANGIN BERUANG 18 ML</option>
+            <option>MINYAK ANGIN BERUANG 27 ML</option>
+            <option>PARAMEX BOX 50 STR @ 4 TAB</option>
+            <option>PARAMEX FLU DAN BATUK BOX 25 STR @ 4 TAB</option>
+            <option>PARAMEX NYERI OTOT BOX 25 STR @ 4 TAB</option>
+            <option>GINGER-C BTL 30 CAP</option>
+            <option>HEROCYN BEDAK 85 GR</option>
+            <option>HEROCYN BEDAK 150 GR</option>
+            <option>HEROCYN BABY POWDER 200 GR</option>
+            <option>CENDO TOBROSON EYE DRP BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO CATARLENT BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO PROTAGENTA BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO LENTIKULAR EYE DRP BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO P-PRED EYE DRP 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO LYTEERS BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO POLYNEL EYE DRP BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>ERSOLON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              OBH COMBI ANAK BATUK PLUS FLU SYR RASASTRAWBERRY 60 ML
+            </option>
+            <option>OBH COMBI ANAK BATUK PLUS FLU SYR RASA JERUK 60 ML</option>
+            <option>L-ZINC SYR 100 ML</option>
+            <option>MECOVIT C-500MG BOX 3 STR @ 10 TAB</option>
+            <option>PIROCAM 20 MG BOX 5 STR @ 10 CAP</option>
+            <option>SIMVASTATIN MULIA 20MG BOX 10 STR @ 10 TAB</option>
+            <option>FLUIMUCIL 100 MG/ 5 ML DRY SYR 75 ML</option>
+            <option>INPEPSA 500 MG / 5 ML SUSP 200 ML</option>
+            <option>INPEPSA 500 MG / 5 ML SUSP 100 ML</option>
+            <option>VIPALBUMIN BOX 3 STR @ 10 CAP</option>
+            <option>
+              ZINC SULFATE MONOHYDRATE IMFARMIND 20MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>BORAX GLYCERIN CIUBROS 8 ML</option>
+            <option>RHEMAFAR 16 MG BOX 3 STR @ 10 CAP</option>
+            <option>MOLAGIT BOX 15 STR @ 10 TAB</option>
+            <option>BECEFORT BOX 10 STR @ 10 KAPL</option>
+            <option>BINDA KASA PERBAN 10 CM</option>
+            <option>BINDA KASA HIDROFIL STERIL BOX 16 LEMBAR</option>
+            <option>BINDA KASA LIPAT 16X20 CM PACK 16 PADS</option>
+            <option>HOTIN DCL GEL 120 GR TUB</option>
+            <option>HOTIN SUMBAWA OIL CREAM AROMATHERAPHY 120 ML</option>
+            <option>EMINETON BOX 10 STR @ 10 TAB</option>
+            <option>IBUPROFEN NOVA 400MG BOX 10 STR @ 10 TAB</option>
+            <option>GITAS AMP 20 MG/ML BOX 5 AMP @ 1 ML</option>
+            <option>ANTASIDA DOEN TRIMAN BOX 10 STR @ 10 TAB</option>
+            <option>LECOZINC 10MG / 5ML SYR 60 ML</option>
+            <option>CUSTODIOL 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>SUPRAFENID 100 MG BOX 2 STR @ 5 SUPP</option>
+            <option>RAMOXYL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ANELAT BOX 10 STR @ 10 TAB</option>
+            <option>NEXITRA 500 MG BOX 5 STR @ 10 KAPL</option>
+            <option>FOLAXIN 400 MCG BOX 10 STR @ 10 KAPL</option>
+            <option>DOHIXAT 100 MG BOX 10 STR @ 10 CAP</option>
+            <option>INFALGIN 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>SENSI ALCOHOL SWAB BOX 100 PCS</option>
+            <option>NELLCO BEDAK SALICYL MENTHOL 60 GR BTL</option>
+            <option>NELLCO BEDAK SALICYL NON MENTHOL 60 GR BTL</option>
+            <option>CIUBROS SALICYL BEDAK WITH MENTHOL 50 GR</option>
+            <option>MESOLA 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>BECEFORT BOX 25 STR @ 4 KAPL</option>
+            <option>LEXACROL BOX 15 STR @ 10 TAB</option>
+            <option>VOMINA 10MG BOX 10 STR @ 10 TAB</option>
+            <option>THIAMPHENICOL BERNOFARM 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>HELIXIM DS SYRUP 60ML</option>
+            <option>HELIXIM DRY SYR 30 ML</option>
+            <option>
+              ZINC SULFATE MONOHYDRATE HOLI PHARMA 20MG/5ML SYR BTL 60 ML
+            </option>
+            <option>GRAFADON DROP 15 ML</option>
+            <option>FARNORMIN 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>HIALID 0.1% EYE DRP @ 5 ML</option>
+            <option>
+              ATORVASTATIN CALCIUM HEXPHARM 20MG BOX 5 STR @ 10 TAB
+            </option>
+            <option>GITAS PLUS BOX 5 STR @ 10 KAPL</option>
+            <option>TRIAMCORT 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>INBION BOX 10 STR @ 10 CAP</option>
+            <option>TILIDON 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>DIOVAN 80 MG BOX 2 STR @ 14 TAB</option>
+            <option>VALSARTAN HEXPHARM 160 MG BOX 3 STR @ 10 TAB</option>
+            <option>TIARYT 200 MG BOX 3 STR @ 10 TAB</option>
+            <option>ANGIOTEN 50 MG BOX 3 STR @ 10 TAB</option>
+            <option>COROVIT BOX 10 STR @ 10 TAB</option>
+            <option>HUFAGESIC 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NEPHROLIT BOX 20 STR @ 5 CAP</option>
+            <option>NOVAGESIC BOX 10 STR @ 10 KAPL</option>
+            <option>ZENIREX SYR 60 ML</option>
+            <option>BISOLVON EXTRA SYR 60 ML</option>
+            <option>PAMOL BOX 10 STR @ 10 TAB</option>
+            <option>VIOSTIN BOX 6 STR @ 5 KAP</option>
+            <option>VIOSTIN BOX 10 STR @ 5 KAPL</option>
+            <option>PARACETAMOL ERRITA 120 MG/ 5 ML SYR 60 ML</option>
+            <option>GUANISTREP SYR 60 ML</option>
+            <option>COREDRYL SYR 100 ML</option>
+            <option>LASERIN COUGH SYR 110ML</option>
+            <option>
+              ZINC SULFATE MONOHYDRATE MARIN LIZA 20MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>HOLIZINC 20MG BOX 10 STR @ 10 TAB</option>
+            <option>ALLERON 4 MG BOX 20 STR @ 10 KAPL</option>
+            <option>HUFAMAG PLUS BOX 10 STR @ 10 TAB</option>
+            <option>
+              FRESH CARE PRESS AND RELAX MINYAK ANGIN KAYU PUTIH ROLL ON 10 ML
+            </option>
+            <option>FRESH CARE PRESS AND RELAX STRONG ROLL ON 10 ML</option>
+            <option>MUCOS 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>SIOBION BOX 10 STR @ 10 CAP</option>
+            <option>SENSI FACE MASK DUCKBILL BOX 50 PCS</option>
+            <option>SENSI 3PLY SURGICAL FACE EARLOOP MASKER 50 PCS</option>
+            <option>BENOSON 0.1 % CREAM 5 GR TUB</option>
+            <option>MUCOPECT 30 MG / 5 ML SYR 60 ML</option>
+            <option>MUCOPECT PEDIATRIC SYR 60 ML</option>
+            <option>PEDIAGROW SYR 200 ML</option>
+            <option>LAFLANAC 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>KARY UNI EYE DRP @ 5 ML</option>
+            <option>UROGETIX 100 MG BOX 10 STR @ 10 KAPL</option>
+            <option>AMBROXOL TRIMAN 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>CLOPIDOGREL HEXPHARM 75 MG BOX 5 STR @ 10 TAB</option>
+            <option>GASTRINAL HD SUSP 120 ML</option>
+            <option>PURVIT D3-1000 IU BOX 3 STR @ 10 CAP</option>
+            <option>CALCIDIN BOX 10 STR @ 10 TAB</option>
+            <option>CLONIDINE KIMIA FARMA 0.15 MG BOX 10 STR @ 10 TAB</option>
+            <option>LEVOFLOXACIN KIMIA FARMA 500 MG BOX 5 STR @ 10 TAB</option>
+            <option>
+              BETAHISTINE MESILATE DEXA MEDICA 6 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>LANAMOL 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>METHYLPREDNISOLONE HEXPHARM 16 MG BOX 5 STR @10 TAB</option>
+            <option>INFLASON 5 MG BOX 20 STR @ 10 KAPL</option>
+            <option>ARICEPT EVESS 5 MG BOX 2 STR @ 14 TAB</option>
+            <option>ARICEPT EVESS 10 MG BOX 2 STR @ 14 TAB</option>
+            <option>ORPHEN 4 MG BOX 20 STR @ 10 KAPL</option>
+            <option>KENACORT 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>TIRIZ 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>SALBUTAMOL KIMIA FARMA 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>RANITIDINE MULIA 150 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              METHYLPREDNISOLONE DEXA MEDICA 16 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>
+              METHYLPREDNISOLONE DEXA MEDICA 8 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>
+              PROPYLTHIOURACIL DEXA MEDICA 100 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>LORATADINE PROMED 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>BETADINE FEMININE HYGIENE 60 ML (PINK)</option>
+            <option>FELDENE 0.5 % GEL 25 GR TUB</option>
+            <option>FELDENE 0.5 % GEL 15 GR TUB</option>
+            <option>TROSYD 1% CREAM 20 GR TUB</option>
+            <option>TROSYD 1% CREAM 10 GR TUB</option>
+            <option>ULTRAPROCT N BOX 1 STR @ 6 SUPP</option>
+            <option>ULTRAPROCT N CREAM 10 GR TUB</option>
+            <option>PURE KIDS INHALANT 10 ML</option>
+            <option>PURE KIDS BOX @ 2 INHALANT 10 ML+ TUNGKU</option>
+            <option>KALMICETINE CREAM TUB 15 GRAM</option>
+            <option>KALMICETINE 2 % SALEP 15 GR TUB</option>
+            <option>CEFIXIME BERNO 100 MG/ 5 ML DRY SYR 30 ML</option>
+            <option>PHARMAFIX CEFIXIME 100 MG/5 ML SYR 60 ML</option>
+            <option>FARSORBID 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>AMCOR 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>AMCOR 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>AFOLAT 400 MCG BOX 10 STR @ 10 TAB</option>
+            <option>ANACETINE SYR 60 ML</option>
+            <option>ANDALAN LAKTASI PIL KB BOX 1 STR @ 28 TAB</option>
+            <option>AMADIAB 3 MG BOX 5 STR @ 10 KAPL</option>
+            <option>AMADIAB 1 MG BOX 5 STR @ 10 KAPL</option>
+            <option>MOTILIUM 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>FITKOM GUMMY MULTIVITAMIN BIRU BOX 4 SCHT @ 12gr</option>
+            <option>FITKOM STRAWBERRY 1 BTL @ 21 TAB</option>
+            <option>FITKOM JERUK 1 BTL @ 21 TAB</option>
+            <option>FITKOM ANGGUR 1 BTL @ 21 TAB</option>
+            <option>RECANSA 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>RECANSA 20 MG BOX 3 STR @ 10 TAB</option>
+            <option>OBH NUSANTARA SYR100 ML</option>
+            <option>RIBUNAL 400 MG BOX 10 STR @ 10 KAPL</option>
+            <option>H2 HEALTH & HAPPINESS HEMORID BOX 3 STR @ 12 CAP</option>
+            <option>SUMAGESIC BOX 25 STR @ 4 TAB</option>
+            <option>OSKOM BOX 5 STR @ 6 KAPL</option>
+            <option>PHARMATON FORMULA BOX 2 STR @ 5 SOFT CAP</option>
+            <option>L-BIO 2 BTL @ 15 CAP</option>
+            <option>NOURISH SKIN NUTRITION BOX 30 CAP</option>
+            <option>IMBOOST EFF TROPICAL FRUIT TUB 8 TAB</option>
+            <option>IMUNOS BOX 5 STR @ 4 KAPL</option>
+            <option>LAXATAB BOX 20 STR @ 6 TAB</option>
+            <option>VERMORAN BOX 12 STR @ 1 TAB</option>
+            <option>SAFE CARE AROMATHERAPY 10 ML</option>
+            <option>MAGIC POWER BIRU SACHET 3</option>
+            <option>CEREBROVIT X-CEL BOX 10 BLIS @ 10 CAP</option>
+            <option>PUYER BINTANG TOEDJOE NO. 16 BOX @ 100 SCHT</option>
+            <option>DIAPET BOX 12 STR @ 10 CAP</option>
+            <option>INSTO REGULAR 7.5 ML</option>
+            <option>SALEP 88 KULIT 6 GR</option>
+            <option>NEOZEP FORTE BOX 25 STR @ 4 TAB</option>
+            <option>DECOLGEN BOX 25 STR @ 4 TAB</option>
+            <option>PANADOL COLD & FLU 10 MG BOX 10 STR @ 10 CAP</option>
+            <option>VEGE BLEND 21 JR 1 BTL @ 60 CAP</option>
+            <option>PROMAG GAZERO BOX 6 SCHT @ 10 ML</option>
+            <option>HEMAVITON STAMINA BOX 10 STR @ 5 CAP</option>
+            <option>OSKADON SP BOX 25 STR @ 4 TAB</option>
+            <option>CAP LANG NORIT TUB @ 40 TAB</option>
+            <option>NEO RHEUMACYL BOX 1 STR @ 20 TAB</option>
+            <option>ANTIMO 50 MG BOX 72 STR @ 10 TAB</option>
+            <option>BETOMINPLEX SACHET 100 CAP</option>
+            <option>SALONPAS HOT KOYO PACK 12 X 1 LEMBAR</option>
+            <option>SALONPAS KOYO PAK 12 X 1 LEMBAR</option>
+            <option>KAPSIDA BTL @ 12 CAP</option>
+            <option>NEGATAL 1 BTL @ 18 CAP</option>
+            <option>X-GRA BOX 4 STR @ 10 CAP</option>
+            <option>ROHTO EYE DRP @ 7 ML</option>
+            <option>ANTIS ANTISEPTIC GEL JERUK NIPIS 60ML</option>
+            <option>FLEET ENEMA SOL 133 ML</option>
+            <option>BIOLYSIN KIDS BLACKURRANT 1 BTL @ 30 TAB</option>
+            <option>BIOLYSIN KIDS JERUK 1 BTL @ 30 TAB</option>
+            <option>MENSES 650 MG 1 BTL @ 18 CAP</option>
+            <option>BETADINE ANTISEPTIC SOL 15 ML</option>
+            <option>GIOVAN ANTISEPTIK SOAP FRESH 100 ML BTL</option>
+            <option>PIL TUNTAS BOX 10 CAP</option>
+            <option>NUTRAFOR ACNE FACIAL WASH 50GR TUBE</option>
+            <option>LACTACYD LIQUID BABY SKIN CARE 150 ML BIRU</option>
+            <option>
+              NUTRAFOR WHITE BEAUTY HAND & BODY LOTION ANTISEPTIK HONEY VANILLA
+              90 ML
+            </option>
+            <option>LACTACYD ALL DAY CARE 60ML</option>
+            <option>FRUITBLEND 18 JUNIOR KIDS 1 BTL @ 30 CAP</option>
+            <option>DENTASOL SOL 10 ML</option>
+            <option>FERLIN DROP 30 ML</option>
+            <option>MINYAK ANGIN CAP KAPAK 56 ML</option>
+            <option>MINYAK ANGIN CAP KAPAK 28 ML</option>
+            <option>BODREXIN BOX 4 STR @ 4 TAB</option>
+            <option>ENTROSTOP BOX 2 STR @ 12 TAB</option>
+            <option>FATIGON SPIRIT BOX 10 STR @ 6 KAPL</option>
+            <option>MINYAK KAYU PUTIH CAP LANG 15 ML</option>
+            <option>THROMBOPHOB GEL 10GR TUB</option>
+            <option>STOP-X KRIM ANALGESIK TUB 30GR</option>
+            <option>TEKASOL 1 % SALEP 10 GR TUB</option>
+            <option>COUNTERPAIN 60 GR</option>
+            <option>COUNTERPAIN CREAM 15 GR TUB</option>
+            <option>CARMED 10% CREAM 40 GR TUB</option>
+            <option>NEW ASTAR CREAM 15 GR TUB</option>
+            <option>GENERAL CARE LANCING DEVICE</option>
+            <option>DESOXIMETASONE DEXA MEDICA 0.25 % CREAM 15 GR TUB</option>
+            <option>
+              DR SELLA CATGUT PLAIN 3/0 75CM WITH NEEDLE BOX 12 PCS
+            </option>
+            <option>PEKA KRISTAL SEINO BOX 12 POT @ 2GR</option>
+            <option>HOT IN CREAM AROMATHERAPY 120 GR TUB</option>
+            <option>NOSIB SALEP BOX 12 TUB @ 14 GR</option>
+            <option>GELIGA BALSEM OTOT 10 GR</option>
+            <option>
+              VITAMIN B6 PYRIDOXINE MEGA ESA FARMA 10 MG BTL @250 TAB
+            </option>
+            <option>VITAMIN B12 MEF 50 MCG 1 BTL @ 250 TAB</option>
+            <option>OBH COMBI BATUK PLUS FLU SYR RASA MENTHOL 100 ML</option>
+            <option>ANTASIDA SHAMPARINDO SUSP 60 ML</option>
+            <option>RAMAGESIC SYR 60 ML</option>
+            <option>HUFALLERZINE 5 MG/ 5 ML SYR 60 ML</option>
+            <option>SILEX SYR 100 ML</option>
+            <option>TRIANTA SUSP 60 ML</option>
+            <option>KANINA SUSP 60 ML</option>
+            <option>CALORTUSIN SYR BTL 60 ML</option>
+            <option>REMCO SYR 60 ML</option>
+            <option>ITRAMOL 120 MG/ 5 ML SYR 60 ML</option>
+            <option>HUFAMAG PLUS SUSP 60 ML</option>
+            <option>IMBOOST FORCE KIDS SYR 120 ML</option>
+            <option>TRIFED SYR 60 ML</option>
+            <option>RATU LEBAH MADU HITAM PAHIT PROPOLIS 470GR</option>
+            <option>AXAPROFEN BOX 10 STR @ 10 CAP</option>
+            <option>DB MIX RATU LEBAH 310 GR</option>
+            <option>ZAITUN MEDINA OLIVE OIL 60 ML</option>
+            <option>DEMACOLIN BOX 10 STR @ 10 TAB</option>
+            <option>CURBEPLEX SYR 60 ML</option>
+            <option>SCOTT EMUL. VITA EMUL 200 ML</option>
+            <option>HUFAGRIP TMP SYR 60 ML</option>
+            <option>GUAIFENESIN TRIFA 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>ALERMAX 4 MG BOX 10 STR @ 10 CAP</option>
+            <option>ALKOHOL PIM 70% 100 ML</option>
+            <option>LISTERINE GREEN TEA 250 ML BTL</option>
+            <option>LISTERIN COOL MINT 250 ML BTL</option>
+            <option>
+              COSMO MED HAND SANITIZER ALCHOHOL-BASED BOTOL 500 ML
+            </option>
+            <option>SALEP 2-4 15GR EXELTIS</option>
+            <option>THROMBOGEL GEL 10 GR</option>
+            <option>HUFASULVON KIDS SYR 60 ML</option>
+            <option>CURCUMA PLUS SHARPY SYR RASA JERUK 60 ML</option>
+            <option>VICKS FORMULA 44 ANAK SYR RASA STRAWBERRY 27 ML</option>
+            <option>NAPREX SUSP 60 ML</option>
+            <option>SAKATONIK ACTIV BTL 100ML</option>
+            <option>NOVABION BOX 10 STR @ 10 KAPL</option>
+            <option>ELKANA CL LYSINE EMULSI 120 ML</option>
+            <option>ELKANA SYR 60 ML</option>
+            <option>IMUNOS PLUS SYR 60 ML</option>
+            <option>HUSTAREX SYR BOX 24 BTL @ 60 ML</option>
+            <option>ORAPROFEN SYR 60 ML</option>
+            <option>FARTOLIN EXPECTORANT SYR 100 ML</option>
+            <option>OB HERBAL 100 ML</option>
+            <option>OB HERBAL SYR 60 ML</option>
+            <option>AMOXICILLIN HEXPHARM 500MG BOX 20 STR @ 10 KAPLET</option>
+            <option>ROXIDENE 20 MG BOX 10 STR @ 10 CAP</option>
+            <option>GENTALEX CREAM 5 GR TUB</option>
+            <option>THECORT CREAM 5 GR TUB</option>
+            <option>CINOLON N CREAM 5GR TUB</option>
+            <option>HYDROCORTISONE KALBE FARMA 1% CREAM 5 GR TUB</option>
+            <option>SALTICIN 0.1 % CREAM 5 GR TUB</option>
+            <option>ESPERSON 0.25 % SALEP 15 GR TUB</option>
+            <option>DIPROGENTA CREAM 10 GR TUB</option>
+            <option>LICIDAL 10 MG HOLI 10 STR @ TAB</option>
+            <option>LODIA 2 MG BOX 6 STR @ 10 TAB</option>
+            <option>VOSEA SYR 30 ML</option>
+            <option>CEFOPERAZONE INJ QUANTUM BOX 1 VIAL @ 1GR</option>
+            <option>SERETIDE 125 INHALER @ 120 DOSIS</option>
+            <option>EPEXOL 15 MG/ML DROP 20 ML</option>
+            <option>NOVAMOX 125 MG / 5 ML DRY SIRUP BTL 60 ML</option>
+            <option>PRIMADEX SUSP 50 ML</option>
+            <option>LORIHIS 1 MG/ML SYR 60 ML</option>
+            <option>NARFOZ 4 MG/ 5 ML SYR 30 ML</option>
+            <option>COLERGIS SYR 60 ML</option>
+            <option>PROCELES SYR 60 ML</option>
+            <option>VIBRAMOX SYR DRY 250MG/5ML 60ML</option>
+            <option>RANICHO 75MG/5ML SYR RASA STRAWBERRY 60ML</option>
+            <option>PHARMA FIX BOX 5 STR @10 CAP</option>
+            <option>LACOSIB 90MG BOX 3 STR @ 10 TAB</option>
+            <option>LACOSIB 60 MG 3 STR @ 10 TAB</option>
+            <option>FORMYCO 200 MG BOX 5 STR @ 10 TAB</option>
+            <option>TELFAST OD 120 MG BOX 10 STR @ 10 TAB</option>
+            <option>ULSIDEX 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>ERPHACYP 4 MG BOX 10 STR @ 10 KAPL</option>
+            <option>LEXAHIST 4 MG BOX 20 STR @ 10 TAB</option>
+            <option>GLUMIN XR 500 MG BOX 2 STR @ 15 TAB</option>
+            <option>CRAVOX 500 MG BOX 1 STR @ 10 TAB</option>
+            <option>POTAFLAM 50 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DOMPERIDONE MULIA FARMA 10MG BOX 10 STR @10 TAB</option>
+            <option>CLONIDINE INDOFARMA 0.15 MG BOX 10 STR @ 10 TAB</option>
+            <option>ONDANSETRON HCL LANDSON 4 MG 3 BOX STR @ 10 TAB</option>
+            <option>ATORVASTATIN CALCIUM DIPA 20MG BOX 3 STR @10 TAB</option>
+            <option>ALLOPURINOL 100 MG RAMA BOX 10 STR @ 10 TAB</option>
+            <option>AMLODIPINE NOVELL 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>AMLODIPINE NOVELL 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>MELOXICAM NOVELL 7.5 MG BOX 5 STR @ 10 TAB</option>
+            <option>DEXAMETHASONE MEGA ESA FARMA 0.5 MG 1 BTL @ 100 TAB</option>
+            <option>PREGABALIN NOVELL 150 MG BOX 1 STR @ 14 CAP</option>
+            <option>SALBUTAMOL YARINDO 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>KANAMYCIN MEIJI 1 GR SERBUK INJEKSI VIAL</option>
+            <option>LIDOCAIN PHAPROS 2 % INJEKSI BOX 100 AMP @ 2 ML</option>
+            <option>
+              CYANOCOBALAMIN GLOBAL 1 MG/ML INJEKSI BOX 10 VIAL @ 8 ML
+            </option>
+            <option>PEHACAIN INJEKSI BOX 20 AMP @ 2 ML</option>
+            <option>
+              ANDALAN INJECT 3 BLN / 1 ML (DEPOPROGESTIN) UNGU BOX @ 20 VIAL
+            </option>
+            <option>
+              ANDALAN INJECT 3 BLN / 3 ML MEDROXYPROGESTERONE 150MG/ 3ML BOX @
+              20 VIAL
+            </option>
+            <option>BENOSON 0.5MG BOX 10 STR @ 10 TAB</option>
+            <option>A-B VASK 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>DIADIUM 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>LICODEXON 0.75 MG BOX 20 STR @ 10 CAP</option>
+            <option>SCANAFLAM 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>CLANEKSI 500 BOX 5 STR @ 6 KAPL</option>
+            <option>CEFADROXIL HOLI 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>AMBROXOL RAMA SYR 60 ML</option>
+            <option>AMBROXOL IMFARMIND 15MG/5ML SYR 60 ML</option>
+            <option>AMOXICILLIN MERSI 125 MG/ 5 ML SYR 60 ML</option>
+            <option>COTRIMOXAZOLE SAMPHARINDO SYR 60ML</option>
+            <option>DOMPERIDONE ERLIMPEX SYR 60 ML</option>
+            <option>HUFAXICAM 15 MG BOX 2 STR @ 10 KAPL</option>
+            <option>CORTIDEX 0.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>ALPARA SYR 60 ML</option>
+            <option>KLORFESON CREAM 10 GR TUB</option>
+            <option>MOLAKRIM CREAM 10 GR TUB</option>
+            <option>CITOCETIN SYR 60 ML</option>
+            <option>BRONCHITIN EXPECTORANT SYR 50 ML</option>
+            <option>CENDO EYEFRESH BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO NONCORT EYE DRP BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>CENDO CORTHON EYE DRP @ 5 ML</option>
+            <option>CENDO POLYNEL EYE DRP @ 5 ML</option>
+            <option>CENDO GENTA 1% EYE DRP @ 5 ML</option>
+            <option>CENDO AUGENTONIC BESAR EYE DRP @ 15 ML</option>
+            <option>CENDO VASACON EYE DRP @ 15 ML</option>
+            <option>ANTASIDA DOEN RAMA SYR 60 ML</option>
+            <option>MEFENAMIC ACID HEXPHARM 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DULCOLAX SUPPOS 5 MG PAED BOX 6 SUP</option>
+            <option>DULCOLAX ADLT 10 MG BOX 1 STR @ 5 SUPP</option>
+            <option>
+              ASAM TRANEKSAMAT BERNOFARM 100 MG/ML INJEKSI BOX 10 AMP @ 5 ML
+            </option>
+            <option>MAAG GEL SUSP 60 ML</option>
+            <option>BLEDSTOP 200 MCG/ML INJEKSI BOX 10 AMP @ 1 ML</option>
+            <option>RINGER LAKTAT WIDATRA BHAKTI INFUS 500 ML</option>
+            <option>
+              CEFIXIME TRIHYDRATE HEXPHARM 200 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>AMARYL M 1/ 250 MG BOX 3 STR @ 10 TAB</option>
+            <option>ATORVASTATIN PRATAPA 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>PARACETAMOL MEGA ESA FARMA SYR 100 ML</option>
+            <option>EPERISONE HCL NULAB 50MG BOX 5 STR @10 TAB</option>
+            <option>DOMPERIDONE RAMA 10MG BOX 10 BLIS @ 10 TAB</option>
+            <option>INDEXON 0.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRISEOFULVIN KIMIA FARMA 125 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLIMEPIRIDE HEXPHARM 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>GLIMEPIRIDE INDOFARMA 4 MG BOX 5 STR @ 10 TAB</option>
+            <option>LORATADINE HEXPHARM 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>ULTRAFLU PE BOX 25 STR @ 4 TAB</option>
+            <option>NEW DIATABS BOX 4 STR @ 4 TAB</option>
+            <option>MYLANTA BOX 10 STR @ 10 TAB</option>
+            <option>BIOGESIC BOX 25 STR @ 4 TAB</option>
+            <option>BODREX FLU BOX 25 STR @ 4 TAB</option>
+            <option>COMBANTRIN 250 MG BOX 25 STR @ 2 TAB</option>
+            <option>COMVIT C BOX 10 STR @ 10 TAB</option>
+            <option>MUCOHEXIN 8 MG BOX 25 STR @ 4 TAB</option>
+            <option>BODREX MIGRA BOX 25 STR @ 4 TAB</option>
+            <option>ONEMED TEST STRS KEHAMILAN BOX</option>
+            <option>
+              CHLORPHENAMINE MALEAT NOVAPHARIN 4MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>DOLO NEUROBION BOX 10 STR @ 10 TAB</option>
+            <option>SULTRIMMIX SUSP 60 ML</option>
+            <option>GARABIOTIC 0.1% CREAM 15 GR TUB</option>
+            <option>ARKAVIT BOX 10 STR @ 10 KAPL</option>
+            <option>SCANOVIR 5% CREAM 10 GR TUB</option>
+            <option>PARACETAMOL BERNOFARM 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ACYCLOVIR CREAM 5% ERELA</option>
+            <option>GLUCOTIKA 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>GENOINT 0.3 % EYE SALEP 3.5 GR TUB</option>
+            <option>SANMOL FORTE SYR 60 ML</option>
+            <option>SANADRYL PLUS EXP SYR 60 ML</option>
+            <option>KAOTIN SUSP 60 ML</option>
+            <option>SIRPLUS SYR RASA STRAWBERRY 100 ML</option>
+            <option>SIRPLUS SYR RASA MELON 100 ML</option>
+            <option>METRONIDAZOLE NOVAPHARIN 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>NYSTATIN PHAPROS 100.000 IU BOX 10 STR @ 10 TAB</option>
+            <option>MUCOPECT 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>PHARMAXIL 500 MG BOX 10 STR @10 CAP</option>
+            <option>PROXONA BOX 20 STR @ 10 KAPL</option>
+            <option>AMOXICILLIN NOVAPHARIN 250 MG BOX 10 STR @ 10 KAPL</option>
+            <option>
+              PANTOPRAZOLE SODIUM SESQUIHYDRATE MAHAKAM 40MG BOX 3 STR @ 10 TAB
+            </option>
+            <option>TRIAMCINOLONE DEXA MEDICA 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>SALBUTAMOL KIMIA FARMA 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>ERHA21 FACIAL WASH FOR OILY SKIN 60ML BTL</option>
+            <option>SANMOL PARACETAMOL SYR 60 ML</option>
+            <option>REGROU 2 % SOL 30 ML</option>
+            <option>REGROU FORTE 5 % SOL 30 ML</option>
+            <option>MEDIKLIN SOL 30 ML</option>
+            <option>PIROTOP 2 % CREAM 10 GR TUB</option>
+            <option>MEDICORT 0.05 % CREAM 10 GR TUB</option>
+            <option>MOFACORT CREAM 10 GR TUB</option>
+            <option>TRANSIFAR BOX 10 STR @ 10 KAPLET</option>
+            <option>DIABIT 500MG BOX 20 STR @ 10 TAB</option>
+            <option>VICTOZA 6 MG/ML INJEKSI BOX 2 PREFILLED PEN @ 3 ML</option>
+            <option>FORUMEN EAR DRP @ 10 ML</option>
+            <option>FATIGON MULTIVITAMIN MINERAL BOX 10 STR @ 6 CAP</option>
+            <option>NEUROSANBE PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>LIPITOR 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>LIPITOR 20 MG BOX 3 STR @ 10 TAB</option>
+            <option>TEMPRA FORTE BUBBLEGUM SYR 60ML</option>
+            <option>FARSIRETIC BOX 10 STR @ 10 TAB</option>
+            <option>ATORVASTATIN PRATAPA 20 MG BOX 3 STR @ 10 TAB</option>
+            <option>SULFATGEN 500MG/5ML SUSP 100ML</option>
+            <option>EXAFLAM 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>IMUNPED DROP 15 ML</option>
+            <option>LEXCOMET 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>ASPAR-K 300 MG BOX 10 STR @ 10 TAB</option>
+            <option>CONCOR 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>PONSTELAX 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FERLIN VITAMIN SYR 100 ML</option>
+            <option>NEO NAPACIN BOX 50 STR @ 4 TAB</option>
+            <option>PROMAG BOX 3 STR @ 10 TAB</option>
+            <option>LELAP BOX 25 STR @ 4 KAPL</option>
+            <option>NEW ACNOL LOTION 10 ML</option>
+            <option>ROHTO COOL EYE DRP @ 7 ML</option>
+            <option>MYLANTA SUSP 50 ML</option>
+            <option>MYLANTA SUSP 150 ML</option>
+            <option>SALICYL KIMIA FARMA 60 GR</option>
+            <option>FLASICOX 15 MG BOX 5 STR @ 10 KAPL</option>
+            <option>MOMETASONE FUROATE 0.1 % ETERCON 10 GR TUB</option>
+            <option>OMEGDIAR SUSP 60 ML</option>
+            <option>OMEGDIAR BOX 10 STR @ 10 TAB</option>
+            <option>OMENEURON BOX 10 STR @ 10 TAB</option>
+            <option>OMEROXOL 15 MG/ 5 ML SYR 60 ML</option>
+            <option>PACDIN COUGH SYR RASA STRAWBERRY 60 ML</option>
+            <option>PACDIN COUGH SYR 60 ML</option>
+            <option>OMERIC 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>OMERIC 300 MG BOX 10 STR @ 10 TAB</option>
+            <option>OMEGZOLE 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>OMETILSON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>SOLDEXTAM BOX 20 STR @ 10 KAPL</option>
+            <option>NORMUDAL 2 MG BOX 5 STR @ 10 TAB</option>
+            <option>THERABEX BOX 10 STR @ 10 TAB</option>
+            <option>VERTIVOM 5 MG/ML INJEKSI BOX 10 AMP @ 2 ML</option>
+            <option>BLEDSTOP 125 MG BOX 10 STR @ 10 TAB</option>
+            <option>SAN B PLEX DROP 30 ML</option>
+            <option>SAN-B-PLEX MULTIVITAMIN PEDIATRIC DROP 15 ML</option>
+            <option>CERINI 10 MG BOX 2 STR @ 10 KAPL</option>
+            <option>SAGESTAM 0.1 % CREAM 10 GR TUB</option>
+            <option>ERYSANBE 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>FLAMAR 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>FLAMAR 50 MG BOX 10 STR @ 10 TAB</option>
+            <option>SANEXON 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>SANEXON 8 MG BOX 10 STR @ 10 TAB</option>
+            <option>COLSANCETINE 250 MG BOX 10 STR @ 10 CAP</option>
+            <option>CLANEKSI DRY SYR 60 ML</option>
+            <option>NYMIKO 100000 IU SUSP 12 ML</option>
+            <option>CINOLON CREAM 10 GR TUB</option>
+            <option>PIROFEL GEL 0.5 % 20 GR TUB</option>
+            <option>SANADRYL PLUS EXP SYR 120 ML</option>
+            <option>BUFECT FORTE SUSP 50 ML</option>
+            <option>BUFECT SUSP 60 ML</option>
+            <option>NEUROSANBE BOX 10 STR @ 10 TAB</option>
+            <option>NEUROSANBE 5000 BOX 10 STR @ 10 TAB</option>
+            <option>AMOXSAN PEDIATRIC 100 MG/ML DROP 15 ML</option>
+            <option>AMOXSAN 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>EYEVIT SYR 60 ML</option>
+            <option>IKAMICETIN SALEP 15 GR TUB</option>
+            <option>ACLONAC 25 MG BOX 3 STR @ 10 TAB</option>
+            <option>CENDO CENFRESH BOX 5 X 0.6 ML MINIDOSE</option>
+            <option>NARFOZ 4 MG/ 5 ML SYR 60 ML</option>
+            <option>OZEN 10 MG BOX 1 STR @ 10 TAB</option>
+            <option>THERMOLYTE PLUS BOX 3 STR @ 10 KAPL</option>
+            <option>THERMOLYTE PLUS BOX 1 STR @ 10 KAPL</option>
+            <option>THERMOLYTE PLUS BOX 6 STR @ 10 KAPL</option>
+            <option>MAXIMUS BOX 3 STR @ 10 CAP</option>
+            <option>MYCOSTATIN 100K IU/ML SUSP 12 ML</option>
+            <option>KETOCONAZOLE DEXA MEDICA CREAM 10 GR</option>
+            <option>PERMETHRIN ETERCON CREAM 30 GR TUB</option>
+            <option>ESPERSON CREAM 15GR</option>
+            <option>PERMETHRIN ETERCON CREAM 15 GR TUB</option>
+            <option>COUNTERPAIN PXM GEL 25 GR TUB</option>
+            <option>LEXAPRAM 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>MEFENAMIC ACID RAMA 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>PARACETAMOL PIM 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>DULCOLAX BISACODYL 5 MG BOX 20 STR @ 10 TAB</option>
+            <option>SOLATHIM 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>ROHTO EYE FLUSH 150 ML</option>
+            <option>AMOXICILLIN BERNOFARM 500MG BOX 10 STR @ 10 TAB</option>
+            <option>AMLODIPINE KIMIA FARMA 5 MG BOX 5 STR @ 10 TAB</option>
+            <option>SIMVASTATIN KIMIA FARMA 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>NYSTATIN NOVELL SUSP 12 ML</option>
+            <option>LIBROCEF 500MG BOX 5 STR @ 10 TAB</option>
+            <option>ACYCLOVIR NOVELL 200MG BOX 5 STR @ 10 TAB</option>
+            <option>ACYCLOVIR NOVELL 400MG BOX 5 STR @ 10 TAB</option>
+            <option>CELECOXIB NOVELL 100 MG BOX 3 STR @ 10 KAPL</option>
+            <option>CELECOXIB NOVELL 200 MG BOX 3 STR @ 10 KAPL</option>
+            <option>MAXPOFER BOX 5 STR @ 2 TAB EFF</option>
+            <option>JF SULFUR DERMAMED SOAP 90 GR</option>
+            <option>JF SULFUR ACNE 90 GR</option>
+            <option>CALADINE LOTION 60 ML</option>
+            <option>CALADINE LOTION 95 ML</option>
+            <option>COOLING 5 COOL MINT 15 ML</option>
+            <option>COOLING 5 PLUS ORANGE FLAVOUR 15 ML</option>
+            <option>KUTILOS 10 ML</option>
+            <option>CENDO POLYDEX EYE DRP @ 5 ML</option>
+            <option>CENDO LYTEERS EYE DRP @ 15 ML</option>
+            <option>BETAMETHASONE DIPROPIONATE TEMPO SCAN TUB 10 GR</option>
+            <option>RHEU-TREX 2.5 MG BOX 5 STR @ 10 TAB</option>
+            <option>PROVE D3 1000 IU BOX 3 STR @ 10 TAB</option>
+            <option>HEVIT PLUS BOX 10 STR @ 10 TAB</option>
+            <option>SERETIDE DISKUS 50/100 MCG BOX</option>
+            <option>PREMASTON 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>KALTROFEN 100 MG BOX 3 STR @ 10 TAB</option>
+            <option>KALTROFEN 2.5% GEL 30 GR TUB</option>
+            <option>ALLURIC 300 MG BOX 5 STR @ 10 TAB</option>
+            <option>ALLURIC 100 MG BOX 5 STR @ 10 TAB</option>
+            <option>DEMACOLIN XYR 60 ML</option>
+            <option>VITAMIN B COMPLEX MEF 250 TAB</option>
+            <option>VITAMIN C RASA JERUK MEF 25 MG 1 BTL @ 250 TAB</option>
+            <option>VITAMIN B6 MEGA ESA FARMA BTL 250 TAB</option>
+            <option>CENDO GENTA 0.3% EYE DRP @ 5 ML</option>
+            <option>OBH COMBI BERDAHAK SYR RASA MENTHOL 100 ML</option>
+            <option>ELOMOX 0.1 % CREAM 5 GR TUB</option>
+            <option>ZEMOXIL DRY SYR 60 ML</option>
+            <option>STANALIN DS 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>BACTOPRIM COMBI FORTE BOX 10 STR @ 10 KAPL</option>
+            <option>BACTOPRIM COMBI SUSPENSI SYR 50 ML</option>
+            <option>ANGINTRIZ MR 35 MG BOX 3 STR @ 10 TAB</option>
+            <option>BISOVELL 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>ELOVESS BOX 3 STR @ 10 CAP</option>
+            <option>NOSPIRINAL 80 MG BOX 5 STR @ 10 TAB</option>
+            <option>NISTROL 10 MG BOX 2 STR @ 10 TAB</option>
+            <option>NISTROL 20 MG BOX 2 STR @ 10 TAB</option>
+            <option>NISTROL 40 MG BOX 2 STR @ 10 TAB</option>
+            <option>METPHAR XR 750MG BOX 3 STR @10 TAB</option>
+            <option>METPHAR XR 500MG BOX 3 STR @ 10 TAB</option>
+            <option>VELACOM PLUS 1/250 BOX 3 STR @ 10 TAB</option>
+            <option>Q-TEN 30 MG 1 BTL @ 30 CAP</option>
+            <option>Q-TEN 100 MG 1 BTL @ 30 CAP</option>
+            <option>DIKLOVIT BOX 10 STR @ 10 TAB</option>
+            <option>NOTISIL 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>SCANDEXON 0.5 MG BOX 50 STR @ 10 TAB</option>
+            <option>CHOLESTAT 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>AMLODIPINE INTERBAT 5MG BOX 5 STR @ 10 TAB</option>
+            <option>AMLODIPINE INTERBAT 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>CLOPIDOGREL INTERBAT 75 MG BOX 3 STR @ 10 TAB</option>
+            <option>
+              PARACETAMOL MEGA ESA FARMA 500 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>ACETYLCYSTEINE NOVEL 200MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              ROSUVASTATIN CALCIUM NOVELL 10 MG BOX 2 STR @ 10 TAB
+            </option>
+            <option>OXYCAN GREEN 500 CC / ML KLG</option>
+            <option>MUPIROCIN ETERCON CREAM 2% 5 GRAM</option>
+            <option>ACETYLCYSTEINE ETERCON 200 MG BOX 10 STR @ 10 CAP</option>
+            <option>TRIAMCINOLONE ACETONIDE NOVELL 0.1% CREAM TUB 5GR</option>
+            <option>PRIMPERAN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              ONDANSETRON HCL BERNOFARM INJ 4MG / 2ML BOX 10 VIAL @ 2 ML
+            </option>
+            <option>SUTRA MERAH BOX 12 PCS</option>
+            <option>FIESTA KONDOM STRAWBERRY BOX 3 PCS</option>
+            <option>FIESTA DELAY 3 PCS</option>
+            <option>SUTRA PLUS BOX 12 PCS</option>
+            <option>ANDALAN PREGNANT TEST MIDSTREAM</option>
+            <option>GABAPENTIN NOVELL 300 MG BOX 10 STR @ 10 CAP</option>
+            <option>CETIRIZINE NOVELL DROP 10 ML</option>
+            <option>OBH COMBI BATUK PLUS FLU SYR RASA MENTHOL 60 ML</option>
+            <option>HUFAGRIP PILEK ANAK SYR 60 ML</option>
+            <option>NOURISH BEAUTY CARE ACNE GEL 10 ML</option>
+            <option>IFACE SERUM VIT C 10% 10 ML BTL</option>
+            <option>ACLONAC EMULGEL 20 GR TUB</option>
+            <option>CHONDROMAX CREAM 60GR TUB</option>
+            <option>CHONDROMAX CREAM 30 GR TUB</option>
+            <option>OZEN SYR 60 ML</option>
+            <option>IMBOOST FORCE ULTIMATE BOX 3 STR @ 10 KAPLET</option>
+            <option>SENSI 3PLY MASK DUCKBILL PACK 3 PCS</option>
+            <option>NEO MERCAZOLE 5 MG 1 BTL @ 100 TAB</option>
+            <option>ULSAFATE 500 MG/ 5 ML SUSP 100 ML</option>
+            <option>RIFASTAR BOX 3 STR @ 10 KAPL</option>
+            <option>PERIFAS 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>MUCERA 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>MAGTRAL SUSP 120 ML</option>
+            <option>MAGTRAL FORTE MINT SUSP 120 ML</option>
+            <option>TERMOREX PLUS SYR 60 ML</option>
+            <option>TERMOREX PLUS SYR 30 ML</option>
+            <option>TERMOREX SYR 60 ML</option>
+            <option>TERMOREX SYR 30 ML</option>
+            <option>CEREBROFORT GOLD SYR RASA STRAWBERRY 100 ML</option>
+            <option>CEREBROFORT GOLD JERUK 100 ML</option>
+            <option>IPI VITAMIN C JERUK 1 BTL @ 45 TAB</option>
+            <option>THIAMAZOLE NOVELL 10MG BOX 10 STR @ 10 TAB</option>
+            <option>DOMPERIDONE ERRITA 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>AMBROXOL NOVA 30 MG BOX 10 STR @ 10 TAB</option>
+            <option>PIROXICAM NOVAPHARIN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>PIROXICAM NOVAPHARIN 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              PARACETAMOL NOVAPHARIN 120 MG/5 ML SYR RASA STRAWBERRY 60 ML
+            </option>
+            <option>ANTASIDA DOEN NOVAPHARIN SYR 60 ML</option>
+            <option>LORATADINE NOVAPHARIN 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              METAMIZOLE SODIUM NOVAPHARIN 500 MG BOX 10 STR @ 10 KAPL
+            </option>
+            <option>CETIRIZINE NOVAPHARIN 10MG BOX 10 STR @ 10 TAB</option>
+            <option>CETIRIZINE HYDROCHLORIDE NOVA 5MG / 5ML SYR 60ML</option>
+            <option>IFARSYL BOX 10 STR @ 10 KAPL</option>
+            <option>ALBENDAZOLE HOLI 400MG BOX 10 STR @ 10 KAPLET</option>
+            <option>CETIRIZINE HYDROPCHLORIDE DROP 10 MG/ML</option>
+            <option>TIFESTAN FORTE BOX 10 STR @ 10 KAPL</option>
+            <option>POLARIST 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>ACEPRESS 12.5MG BOX 10 STR @ 10 TAB</option>
+            <option>ACEPRESS 25MG BOX 10 STR @ 10 TAB</option>
+            <option>PROSON CREAM 0.05% TUB 5GR</option>
+            <option>PROSON CREAM 0.05% TUB 15GR</option>
+            <option>BETADINE OBAT KUMUR ANTISEPTIK 100 ML</option>
+            <option>KLARENS HAND SANITIZER SPRAY PINK ROSE BTL 60 ML</option>
+            <option>KLARENS HAND SANITIZER SPRAY CALMING MUSK 60 ML BTL</option>
+            <option>BETADINE ANTISEPTIC SKIN CLEANSER 100ML</option>
+            <option>OMEPRAZOLE IFARS 20 MG BOX 3 STR @10 CAP</option>
+            <option>LACTAMAM BOX 6 STR @10 CAP</option>
+            <option>VITAMAM 1 BOX 3 STR @ 10 CAP</option>
+            <option>EAZYCAL BOX 5 STR @ 6 KAPL</option>
+            <option>RECTOLAX ENEMA 5 ML</option>
+            <option>KALMECO 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>COLCHICINE ETERCON 0.5MG BOX 3 STR @ 10 TAB</option>
+            <option>
+              DICLOFENAC POTASSIUM HEXAPHARM 50 MG BOX 5 STR @ 10 TAB
+            </option>
+            <option>
+              DICLOFENAC POTASSIUM HEXPHARM 50 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>ALLOPURINOL MERSIFARMA 100MG BOX 10 STR @ 10 TAB</option>
+            <option>NICHOFLAM 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>GLIKOS 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>NOURISH SKIN GLOW BOX 15 TAB</option>
+            <option>NOURISH SKIN GLOW BOX 30 TAB</option>
+            <option>PARACETAMOL SYR MEGA FARMA 120MG/5ML BTL 60 ML</option>
+            <option>RANITIDINE HOLI 150MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              PANTOPRAZOLE SODIUM SESQUIHYDRATE MAHAKAM 20MG BOX 3 STR @ 10 TAB
+            </option>
+            <option>IMBOOST EXTRA VIT C & D3 BOX 6 STR @ 8 KAPLET</option>
+            <option>GORED 80 MG BOX 10 STR @ 10 TAB</option>
+            <option>CELESTAMINE SYR 30 ML</option>
+            <option>TAZOVELL 30MG BOX 3 STR @ 10 TAB</option>
+            <option>VALSARTAN ETERCON 160 MG BOX 3 STR @ 10 TAB</option>
+            <option>VALPROIC ACID ETERCON SYR 120 ML</option>
+            <option>TAMSULOSIN HCL NOVELL 0.4MG BOX 3 STR @ 10 FCT</option>
+            <option>DESLORATADINE NOVELL 5MG BOX 3 STR @10 TAB</option>
+            <option>XPEDITIONS ACNE SPOT GEL F 10 GR TUB</option>
+            <option>GLYCORE 8 % CREAM 10 GR TUB</option>
+            <option>GLYCORE 10 % CREAM 10 GR TUB</option>
+            <option>AZA 20% CREAM 10 GR TUB</option>
+            <option>RHINOS BOX 5 STR @ 10 CAP</option>
+            <option>
+              PARACETAMOL NOVELL 125MG / 2.5ML BOX 5 SUPP @ 2.5 ML
+            </option>
+            <option>IMUNPED SYR 60 ML</option>
+            <option>LASIX 40 MG BOX 10 STR @ 10 TAB</option>
+            <option>DERMA XP UV PROTECTOR CRM SPF-30 30GR TUB</option>
+            <option>
+              XPEDITIONS WHITENING SERUM FOR DULL & PIGMENTED SKIN F 19ML
+            </option>
+            <option>DERMA XP 134 HAIR GROW SHAMPOO 100 ML</option>
+            <option>DERMA XP GLAM WHITE DAY CREAM SPF-25 TUB 30GR</option>
+            <option>BRICOX 300 MG BOX 2 STR @10 CAP</option>
+            <option>AMBROXOL HOLI 15 MG/5 ML SYR 60ML</option>
+            <option>FRESHCARE EUCALYPTUS PATCH BOX 24 SCHT @ 12 PATCH</option>
+            <option>HOTIN DCL GEL 60 GR TUB</option>
+            <option>OTOPAIN EAR DRP @ 8 ML</option>
+            <option>PAMOL 250 MG BOX 2 STR @ 6 SUPP</option>
+            <option>LOTASBAT SALEP 10 GR TUB</option>
+            <option>LOTASBAT CREAM 10 GR TUB</option>
+            <option>MEFINTER 500 MG BOX 25 STR @ 4 KAPL</option>
+            <option>NERILON 0.1 % CREAM 10 GR TUB</option>
+            <option>DIGENTA CREAM 10 GR TUB</option>
+            <option>ZOLORAL CREAM 10 GR TUB</option>
+            <option>PI KANG SHUANG HIJAU CREAM 5 GR TUB</option>
+            <option>BETADINE SALEP ANTISEPTIK TUB 5 GR</option>
+            <option>XPEDITIONS MCS SS ACNE SERIES TUB 60 GR</option>
+            <option>MCS SS ACNE SERIES 60 GR</option>
+            <option>XP ACNE CARE BODY SPRAY 60 ML</option>
+            <option>DERMA XP FACIAL WASH FOR OILY SKIN 60ML</option>
+            <option>MEGATIC EMULGEL 20 GR</option>
+            <option>NUTAMINS ROYAL C500 VITC+ZINC+D3 BTL 30 TABLET</option>
+            <option>CEDOCARD 5 MG BOX 6 STR @ 10 TAB</option>
+            <option>METFORMIN DEXA MEDICA 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>NEURODEX BOX 20 STR @ 10 TAB</option>
+            <option>NEUROPYRAMIN-M BOX 10 STR @ 10 CAP</option>
+            <option>PYCOSTEIN 200 MG BOX 3 STR @10 TAB</option>
+            <option>XANTURIC 300MG BOX 5 STR @ 10 CAP</option>
+            <option>TRIMAKAL CALCIUM LACTATE 500MG BOX 10 STR @ 10 KAPL</option>
+            <option>FAVIPIRAVIR ETERCON 200 MG BOX 10 STR @ 10 TAB</option>
+            <option>DOLOS 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>MAX-D VITAMIN D3 400 IU BOX 10 STR @ 10 TAB</option>
+            <option>CATAFLAM FAST 50MG BOX 3 SCHT @ 900 ML</option>
+            <option>PIROXICAM FM 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              GLIBENCLAMIDE FIRST MEDIPHARMA 5 MG BOX 10 STR @ 10 KAPL
+            </option>
+            <option>GUAIFENESIN NOVAPHARIN 100 MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              TRANEXAMIC ACID FIRST MEDIPHARMA 500 MG BOX 10 STR @ 10 KAPL
+            </option>
+            <option>PRIMOLUT N 5MG BOX 2 STR @ 15 TAB</option>
+            <option>VITALYSINE SYR 100ML</option>
+            <option>FLAMIGRA 50 MG BOX 5 STR @ 10 TAB</option>
+            <option>DESOXIMETASONE ETERCON 0.25 % SALEP 15 GR TUB</option>
+            <option>DONEPEZIL HCL ETERCON 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>TRIMETAZIDINE ETERCON 35 MG BOX 3 STR @10 TAB</option>
+            <option>ERDOSTEINE NOVELL 175 MG/5 ML DRY SYRUP BTL 60 ML</option>
+            <option>DIVALPROEX SODIUM ETERCON 250MG BTL 100 TAB</option>
+            <option>DUTASTERIDE NOVELL 0.5 MG BOX 3 STR @10 CAP</option>
+            <option>
+              HYDROCHLOROTHIAZIDE KIMIA FARMA 25 MG BOX 10 STR @ 10 TAB
+            </option>
+            <option>ZENDALAT 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>OVTELIS 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>SEVOS 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>PSORIDERM CREAM 5 GR</option>
+            <option>Y-RINS EYE DRP BOX 10 BTL @ 12 ML</option>
+            <option>CANDIGAL SUSP 12 ML</option>
+            <option>LACTULAX SYR 120 ML</option>
+            <option>CATAFLAM 25 MG BOX 5 STR @ 10 TAB</option>
+            <option>VERMINT 250 MG BTL 30 CAP</option>
+            <option>VERMINT 250 MG BTL 12 CAP</option>
+            <option>IFIDEX 0.75 MG BTL @ 100 TAB</option>
+            <option>
+              BPJS PRB - DIVALPROEX SODIUM NOVELL 250 MG BTL 100 TAB
+            </option>
+            <option>HOT IN CREAM AROMATHERAPY BTL 120 ML</option>
+            <option>GRAZEO 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRAZEO 10 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRAFALIN 2 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRAFALIN 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>GRAVASK 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>GRAVASK 5 MG BOX 3 STR @ 10 TAB</option>
+            <option>ODANOSTIN 4 MG BOX 3 STR @ 10 KAPL</option>
+            <option>ORLIVELL 120 MG 3 BLISTER @ 10 KAPSUL</option>
+            <option>FASIDOL DROP 15 ML</option>
+            <option>PYRATIBI 500 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NEOSMA 2.5 MG BOX 10 STR @ 10 KAPL</option>
+            <option>NORVOM 10 MG BOX 10 STR @ 10 KAPL</option>
+            <option>ZANTIFAR 150 MG BOX 5 STR @ 10 KAPL</option>
+            <option>ZILOVEN 4 MG BOX 5 STR @ 10 KAPL</option>
+            <option>DOLO LICOBION BOX 10 STR @ 10 KAPL</option>
+            <option>LICOKALK PLUS BOX 10 STR @ 10 KAPL</option>
+            <option>PREDNISONE TRIMAN 5 MG 1 BTL @ 100 TAB</option>
+            <option>ARCOXIA 60 MG BOX 3 STR @ 10 TAB</option>
+            <option>LACTULAX RASA COKELAT 3,335 G / 5 ML SYR 200 ML</option>
+            <option>NU Q-TEN COM BOX 3 STR @ 10 KAPL</option>
+            <option>CANDOTENS 8 MG BOX 1 STR @ 10 TAB</option>
+            <option>CANDOTENS 16 MG BOX 1 STR @ 10 TAB</option>
+            <option>ZINC PLUS GENERO PHARMA BOX 6 STR @ 10 CAP</option>
+            <option>VITA D3 1000 IU BOX 30 TAB</option>
+            <option>DERMA XP FRESH OUT LOTION 30 ML BTL</option>
+            <option>CHLORAMPHENICOL IMFARMIND 250 MG BTL @ 100 CAP</option>
+            <option>KETOCONAZOLE MULIA FARMA 2% CREAM 10GR TUB</option>
+            <option>BIOMEGA BOX 10 STR @ 10 KAPL</option>
+            <option>PIROXICAM TRIMAN 20 MG BOX 10 STR @ 10 TAB</option>
+            <option>FOLAMEF 400 MCG BOX 10 STR @ 10 TAB</option>
+            <option>PARACETAMOL TRIMAN 500 MG 10 STR @ 10 KAPL</option>
+            <option>GENISONE 20MG BTL 50 TAB</option>
+            <option>SAMCONAL 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>HEPARMIN BOX 3 STR @ 10 KAP</option>
+            <option>DERMA XP UV PROTECTOR CREAM SPF 50 PA+++ BTL 30GR</option>
+            <option>BISOLVON 8 MG BOX 10 STR @ 4 TAB</option>
+            <option>NASPRO 300 MG BOX 25 STR @ 4 TAB</option>
+            <option>OMEFULVIN 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>PANVITON BOX 5 STR @ 10 CAP</option>
+            <option>VITALYSIN STRAWBERRY SYR 100ML</option>
+            <option>ALLOPURINOL TRIMAN 100 BOX 10 STR @ 10 TAB</option>
+            <option>NELLCO SPECIAL OBH PE RASA MENTHOL 55 ML</option>
+            <option>LORATADINE NOVELL 10 MG BOX 5 STR @ 10 TAB</option>
+            <option>SILOPECT FORTE 30 MG/ 5 ML ELIXIR 60 ML</option>
+            <option>HOLIDRYL EXPECTORANT SYR 60 ML</option>
+            <option>OMEGTRIM 240 MG/ 5 ML SUSP 60 ML</option>
+            <option>NOVAGESIC SYR 60 ML</option>
+            <option>FAVIPIRAVIR HEXPHARM 200MG BOX 10 STR @ 10 TAB</option>
+            <option>
+              DEXKETOPROFEN TROMETAMOL INTERBAT 25 MG BOX 5 STR @ 10 TAB
+            </option>
+            <option>REBAMIPIDE INTERBAT 100MG BOX 10 STR @ 10 TAB</option>
+            <option>BIOVISION BOX 10 STR @ 10 CAP</option>
+            <option>BIOPROST BOX 3 STR @ 10 CAP</option>
+            <option>PROLIPID BOX 6 STR @ 10 CAP</option>
+            <option>PROLIPID 1 BTL @ 60 CAP</option>
+            <option>SPASMINAL 500/10 MG BOX 10 STR @ 10 TAB</option>
+            <option>RENADINAC 25 MG BOX 10 STR @ 10 TAB</option>
+            <option>SUCRALFATE DEXA MEDICA 500 MG/ 5ML SUSP 100ML</option>
+            <option>NELLCO SPECIAL OBH PE RASA MENTHOL 100 ML</option>
+            <option>NYSTATIN PHAPROS 500.000 IU BOX 10 STR @ 10 TAB</option>
+            <option>DOSIVEC 300 MG BOX 2 STR @ 10 CAP</option>
+            <option>CEFADROXIL HEXPHARM 500MG BOX 10 STR @ 10 CAP</option>
+            <option>ETAMOX 500 MG 10 STR @ 10 CAP</option>
+            <option>ETADEX 0.5MG BOX 20 STR @ 10 KAPL</option>
+            <option>ETADIUM BOX 10 STR @ 10 TAB</option>
+            <option>HUFADRYL SYR 60 ML</option>
+            <option>HUFAGESIC DROP 15 ML</option>
+            <option>FITBES FORCE BOX 12 STR @ 5 KAPL</option>
+            <option>HOT IN CREAM STRONG 120 GR TUB</option>
+            <option>HOT IN CREAM 120 GR TUB</option>
+            <option>OMEHEART 1 BTL @ 30 CAP</option>
+            <option>ORALIT PHAPROS BOX 100 SCHT @ 4.1 GR</option>
+            <option>BATUGIN ELIXER 300 ML</option>
+            <option>SISMAX SYR 60 ML</option>
+            <option>GRISEOFULVIN 500 MG PHARMA BOX 10 STR @ 10 TAB</option>
+            <option>SIDIADRYL 150MG INJEKSI BOX 10 VIAL @ 15ML</option>
+            <option>DEXCLOSAN BOX 10 STR @ 10 TAB</option>
+            <option>FOLIC ACID FIRST MEDIFARMA 1 BTL @ 100 TAB</option>
+            <option>MOMILEN BABY CARE DIAPER RASH CREAM 30 GR TUB</option>
+            <option>MOMILEN MATERNITY CARE NURS CREAM 15 GR TUB</option>
+            <option>PROCURMA SYR 60ML</option>
+            <option>AMBROXOL SIRUP 60 ML NOVAPHARIN</option>
+            <option>DEXAMETHASONE NOVA 0.5 MG BOX 10 STR @ 10 TAB</option>
+            <option>VADROL 4 MG BOX 10 STR @ 10 TAB</option>
+            <option>TETRACYCLINE NOVAPHARIN 500 MG BOX 10 STR @ 10 CAP</option>
+            <option>EPERISONE HCL ETERCON 50MG BOX 10 STR @10 TAB</option>
+            <option>LACTULOSE ETERCON 60 ML</option>
+            <option>THIAMYCIN 125 MG/ 5 ML SYR 60 ML</option>
+            <option>THIAMYCIN FORTE 250 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>EPERISONE MULIA 50MG BOX 5 STR @ 10 TAB</option>
+            <option>BIOPRADYN BOX 10 STR @ 10 TAB</option>
+            <option>PRENATAL BTL @ 30 CAP</option>
+            <option>DECAMOX 125 MG/5 ML DRY SYR 60 ML</option>
+            <option>DECATRIM SUSP 60ML BTL</option>
+            <option>CAMPAIN 20MG BOX 5 STR @ 10 CAP</option>
+            <option>HICHOLFEN 100 MG BOX 5 STR @ 6 CAP</option>
+            <option>HICHOLFEN 300 MG BOX 5 STR @ 6 CAP</option>
+            <option>PILKAB BOX 20 STR @ 28 TAB</option>
+            <option>STATKOLES 10 MG BOX 3 STR @ 10 TAB</option>
+            <option>AMBROXOL IMFARMIND 30MG BOX 10 STR @ 10 TAB</option>
+            <option>MICROTINA 250 MG BOX 10 STR @ 10 CAP</option>
+            <option>MICROTINA 125 MG/5 ML SYR 60 ML</option>
+            <option>PYRADEXON 0,5 MG BOX 20 STR @10 TAB</option>
+            <option>PYRIDOL 500 MG BOX 10 STR @ 10 TAB</option>
+            <option>PYRIDOL 120 MG/ 5 ML SYR 60 ML</option>
+            <option>PYRIDOL DROP BTL 25ML</option>
+            <option>ROSIC 10 MG BOX 5 STR @ 10 CAP</option>
+            <option>ROSIC 20MG BOX 5 STR @ 10 CAP</option>
+            <option>ULMO 40MG BOX 3 STR @ 10 CAP</option>
+            <option>XORIN 150 MG BOX 5 STR @ 10 CAP</option>
+            <option>
+              MEFENAMIC ACID IMFARMINDO 500 MG BOX 10 STR @ 10 KAPL
+            </option>
+            <option>AMBROXOL HOLI 30MG BOX 10 STR @ 10 TAB</option>
+            <option>GENTRIZIN SYR 60 ML</option>
+            <option>GENTRIZIN BOX 5 STR @ 10 KAPLET</option>
+            <option>CITICOLINE BERNO 1000 MG BOX 3 STR @ 10 KAPL</option>
+            <option>AMBROXOL MULIA FARMA 30MG BOX 10 STR @ 10 TAB</option>
+            <option>MECOBALAMIN MULIA 500MCG BOX 10 STR @ 10 CAP</option>
+            <option>DOMPERIDONE SAMPHARINDO 10MG BOX 10 STR @ 10 TAB</option>
+            <option>SP TROCHES MEIJI RASA MELON BOX 2 STR @ 6 TAB</option>
+            <option>SP TROCHES 0.25 MG STRAWBERRY BOX 2 STR @ 6 TAB</option>
+            <option>EDIVA YOUNG BOX 4 STR @ 7 CAP</option>
+            <option>EDIVA PURE MEIJI BOX 4 STR @ 7 CAP</option>
+            <option>SAKURA COLLAGEN CREAM 10 GR</option>
+            <option>LIPANTHYL PENTA 145 MG BOX 3 STR @ 10 TAB</option>
+            <option>LIPANTHYL SUPRA 160 MG BOX 3 STR @ 10 TAB</option>
+            <option>NEURO ATP B1, B6, B12 BOX 10 STR @ 10 TAB</option>
+            <option>DIONICOL 125 MG/ 5 ML DRY SYR 60 ML</option>
+            <option>FLUANZA SIRUP 60 ML</option>
+            <option>SIRPLUS SYR RASA JERUK 100 ML</option>
+            <option>SIRPLUS TABLET RASA STRAWBERRY BTL 20 GR</option>
+            <option>
+              DARYANT-TULLE GAUZE DRS BOX 10 KASSA STERIL (10 CM X 10 CM)
+            </option>
+            <option>OBIMIN AF BOX 3 STR @ 10 CAP</option>
+            <option>FERRIZ DROP 15 ML</option>
+            <option>KENSHIN BOX 12 STR @ 4 KAPL</option>
+            <option>CARTIFLEX 1 BTL @ 20 KAPL</option>
+            <option>SELEFIT PLUS FC 1 BTL @ 15 KAPL</option>
+            <option>DERMAFOOT CREAM 30 GR</option>
+            <option>OILUM BODY LOTION HYDRATING CARE BTL 70 ML</option>
+            <option>OILUM CLEANSING BAR BRIGHTENING CARE 85 GR</option>
+            <option>OILUM CLEANSING BAR HYDRATING CARE 85 GR</option>
+            <option>
+              OILUM THE DRY SKIN EXPERT FACIAL BAR BRIGHTENING CARE REFFIL 175
+              ML
+            </option>
+            <option>OILUM BODY LOTION BRIGHTENING CARE BTL 70 ML</option>
+            <option>
+              OILUM THE DRY SKIN EXPERT HYDRATING CARE REFFIL 175 ML
+            </option>
+            <option>NELADRYL EXPECT SYR @ 60 ML</option>
+            <option>TOPISEL 2.5 % SOL 30 ML</option>
+            <option>GASOGAL 50 MG BOX 3 STR @ 10 TAB</option>
+            <option>JOVIAL GOLD ORANGE 110 ML</option>
+            <option>BLACKSOAP CLEANSING BAR 60GR</option>
+            <option>ATOCALM LIQUID WASH 100ML</option>
+            <option>ATOCALM DAILY CREAM 30GR TUB</option>
+            <option>ISONIAZIDE KIMIA FARMA 300 MG BOX 10 STR @ 10 TAB</option>
+            <option>RHODIUM 500 MG BOX 3 STR @ 10 TAB</option>
+            <option>FEXAZOL CREAM 5 GR TUB</option>
+            <option>LEXACORT 5 MG BOX 10 STR @ 10 TAB</option>
+            <option>LEXIGO 6 MG BOX 3 STR @ 10 TAB</option>
+            <option>
+              ATORVASTATIN CALCIUM MULIA FARMA 40 MG BOX 5 STR @ 6 KAPLET
+            </option>
+          </datalist>
+          <label for="floatingInput">Cari Item</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input
+            type="number"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Jumlah"
+            name="jumlah"
+            autocomplete="off"
+            required
+          />
+          <label for="floatingInput">Jumlah</label>
+        </div>
+
+        <div class="form-floating mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Keterangan"
+            name="ket"
+            autocomplete="off"
+            required
+          />
+          <label for="floatingInput">Keterangan</label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary btn-kirim" type="submit">
+          Save
+        </button>
+
+        <button
+          class="btn btn-primary btn-loading d-none"
+          type="button"
+          disabled
+        >
+          <span
+            class="spinner-border spinner-border-sm"
+            role="status"
+            aria-hidden="true"
+          ></span>
+          Loading...
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+      </form>
+    </main>
+  </body>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    const scriptURL =
+      "https://script.google.com/macros/s/AKfycbx8DFBxqYV3QMo--QgYvVjx0e1FpryLIzdJRbFTqd42rIss0_SRul2F3sGtGkmLu2K4/exec";
+    const form = document.forms["submit-to-google-sheet"];
+    const btnKirim = document.querySelector(".btn-kirim");
+    const btnLoading = document.querySelector(".btn-loading");
+    const myAlert = document.querySelector(".my-alert");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      // tampilkan loading
+      btnLoading.classList.toggle("d-none");
+      btnKirim.classList.toggle("d-none");
+      fetch(scriptURL, { method: "POST", body: new FormData(form) })
+        .then((response) => {
+          // hilangkan tombol loading
+          btnLoading.classList.toggle("d-none");
+          btnKirim.classList.toggle("d-none");
+          //tamplikan alert
+          myAlert.classList.toggle("d-none");
+          //reset form
+          form.reset();
+          //success
+          console.log("Success!", response);
+        })
+        .catch((error) => console.error("Error!", error.message));
+    });
+
+   
+  </script>
+</html>
